@@ -6,6 +6,7 @@ import baseData from '@/data/topics.json';
 import {readRecords,saveRecord,deleteRecord} from '@/lib/client-records';
 import {recordSchema} from '@/lib/study-record';
 import {dateIn,reviewSchedule} from '@/lib/revision-schedule';
+import {anchorSelection} from '@/lib/selection-anchor';
 import {QuickRevision,PyqExplorer,revisionCards,shortNoteText,type Pyq} from './study-tools';
 type Block={id:string;text:string;heading?:boolean};
 type Topic={id:string;title:string;paper:string;subject:string;description:string;blocks:Block[];source?:string;sourceUrl?:string;verification?:string};
@@ -52,7 +53,19 @@ export default function StudyApp(){
  function navigate(v:string,p='All subjects'){setView(v);setPaper(p);setActive(null);setPracticePrompt('');setReveal(false);setRecallText('');setQuery('');setMobile(false);setSelection(null);setFocus(false);setFilterTag('');history.pushState({view:v,paper:p},'',location.pathname);window.scrollTo({top:0});}
  function open(t:Topic,blockId=''){setReadingMode(blockId.startsWith('quick-')?'quick':'learn');setActive(t);setView('reader');setSelection(null);setMobile(false);setFocus(false);setTargetBlock(blockId);history.pushState({view:'reader'},'','#'+t.id);window.scrollTo({top:0});}
  function makeDraft(type:Annotation['type'],sel:SelectionInfo|null=selection){if(!active)return;setTagInput('');setDraft({id:uid(),topicId:active.id,...(sel??{}),color:'yellow',tags:[],note:'',due:dateIn(),step:0,type});setModal('annotation');}
- function capture(){const s=window.getSelection();if(!s||s.isCollapsed||!s.rangeCount){setSelection(null);return;}const range=s.getRangeAt(0);const node=range.startContainer.nodeType===3?range.startContainer.parentElement:range.startContainer as Element;const el=node?.closest('[data-block]');const endNode=range.endContainer.nodeType===3?range.endContainer.parentElement:range.endContainer as Element;if(!el||el!==endNode?.closest('[data-block]')){setSelection(null);return;}const pre=range.cloneRange();pre.selectNodeContents(el);pre.setEnd(range.startContainer,range.startOffset);const start=pre.toString().length;setSelection({blockId:el.getAttribute('data-block')!,start,end:start+range.toString().length,quote:range.toString()});}
+ function capture(){
+ const selection=window.getSelection();if(!selection||selection.isCollapsed||!selection.rangeCount){setSelection(null);return;}
+ const range=selection.getRangeAt(0);
+ const node=range.startContainer.nodeType===Node.TEXT_NODE?range.startContainer.parentElement:range.startContainer as Element;
+ let el=node?.closest('[data-block]')??null;
+ if(!el&&node){const child=node.childNodes[range.startOffset];if(child instanceof Element)el=child.closest('[data-block]')??child.querySelector('[data-block]');}
+ if(!el||!el.closest('.article-content,.quick-revision')){setSelection(null);return;}
+ let start=0;
+ if(el.contains(range.startContainer)){const prefix=range.cloneRange();prefix.selectNodeContents(el);prefix.setEnd(range.startContainer,range.startOffset);start=prefix.toString().length;}
+ const anchor=anchorSelection(el.textContent??'',range.toString(),start);
+ setSelection(anchor?{blockId:el.getAttribute('data-block')!,...anchor}:null);
+ }
+ useEffect(()=>{if(view!=='reader')return;const changed=()=>{const s=window.getSelection();if(s&&!s.isCollapsed&&s.toString().trim()&&!(document.activeElement instanceof HTMLInputElement)&&!(document.activeElement instanceof HTMLTextAreaElement))capture();};document.addEventListener('selectionchange',changed);return()=>document.removeEventListener('selectionchange',changed);},[view,active?.id]);
  function renderBlock(b:Block):ReactNode{const marks=annotations.filter(a=>a.topicId===active?.id&&a.blockId===b.id&&a.type==='highlight'&&Number.isInteger(a.start)&&Number.isInteger(a.end));if(!marks.length)return <LinkedText text={b.text}/>;const edges=[...new Set([0,b.text.length,...marks.flatMap(a=>[a.start!,a.end!])])].filter(v=>v>=0&&v<=b.text.length).sort((a,b)=>a-b);return edges.slice(0,-1).map((start,i)=>{const end=edges[i+1],mark=marks.find(a=>a.start!<=start&&a.end!>=end);const text=b.text.slice(start,end);return mark?<mark key={start} className={'highlight-'+mark.color} title={mark.note||mark.tags.join(', ')} onClick={()=>{editAnnotation(mark);}}>{text}</mark>:<span key={start}><LinkedText text={text}/></span>;});}
  async function saveDraft(){if(!draft || (draft.type==='note'&&!draft.note.trim()))return;if(await put('annotation',draft.id,{...draft,tags:[...new Set(tagInput.split(',').map(s=>s.trim()).filter(Boolean))]} as unknown as Record<string,unknown>)){setModal('');setDraft(null);setSelection(null);window.getSelection()?.removeAllRanges();}}
  async function saveTopic(){if(!newTitle.trim()||!newText.trim())return;const id='custom-'+uid();const topic:Topic={id,title:newTitle.trim(),paper:newPaper,subject:newSubject.trim()||subjectNames[newPaper],description:newText.trim().slice(0,140),blocks:newText.trim().split(/\n\s*\n/).map((text,i)=>({id:'b'+i,text})),source:'Your added notes',verification:'Personal study notes. Verify facts and PYQ metadata against the original source.'};if(await put('topic',id,topic as unknown as Record<string,unknown>)){setModal('');setNewTitle('');setNewText('');setNewSubject('');open(topic);}}

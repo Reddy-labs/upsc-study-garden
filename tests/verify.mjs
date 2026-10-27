@@ -26,3 +26,10 @@ const schedule=load('lib/revision-schedule.ts');const clock=new Date('2026-10-27
 console.log('PASS: IndexedDB save/read/update/delete, tags, colours, invalid-record rejection and backup round-trip.');
 console.log('PASS: 41 documents, 38 revision cards, 31 labelled PYQ routes and all topic anchors.');
 console.log('PASS: short-note generation, IST date boundaries and review scheduling.');
+
+const {anchorSelection}=load('lib/selection-anchor.ts');
+assert.deepEqual(anchorSelection('First paragraph.','First paragraph.\n\n',0),{quote:'First paragraph.',start:0,end:16});
+assert.deepEqual(anchorSelection('  British India','  British India\n',0),{quote:'British India',start:2,end:15});
+assert.equal(anchorSelection('First paragraph.','First paragraph.\nAnother paragraph.',0),null);
+assert.equal(anchorSelection('First paragraph.','   ',0),null);
+console.log('PASS: paragraph selection boundaries, whitespace offsets and multi-paragraph rejection.');
