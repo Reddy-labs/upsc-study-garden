@@ -1,0 +1,515 @@
+[
+  {
+    "id": "P1",
+    "year": 2013,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Discuss the contribution of Maulana Abul Kalam Azad to pre-and post-independent India.",
+    "marks": "10",
+    "words": 200,
+    "demand": "Cover both periods and link national unity with education.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-12"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P2",
+    "year": 2013,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Critically discuss the objectives of Bhoodan and Gramdan movements initiated by Acharya Vinoba Bhave and their success.",
+    "marks": "10",
+    "words": 200,
+    "demand": "Explain aims, distinguish methods, judge success.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-09",
+      "post-08"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P3",
+    "year": 2013,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Write a critical note on the evolution and significance of the slogan “Jai Jawan Jai Kisan”.",
+    "marks": "10",
+    "words": 200,
+    "demand": "Explain the 1965 setting, meaning and limits.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-10",
+      "post-17"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P4",
+    "year": 2013,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Analyse the circumstances that led to Tashkent Agreement in 1966. Discuss the highlights of the agreement.",
+    "marks": "10",
+    "words": 200,
+    "demand": "Separate causes of negotiations from agreed provisions.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-17"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P5",
+    "year": 2013,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Critically examine the compulsions which prompted India to play a decisive role in the emergence of Bangladesh.",
+    "marks": "10",
+    "words": 200,
+    "demand": "Explain interconnected pressures without reducing the war to one cause.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-17"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P6",
+    "year": 2014,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "The New Economic Policy - 1921 of Lenin had influenced the policies adopted by India soon after independence. Evaluate.",
+    "marks": "10",
+    "words": 150,
+    "demand": "Identify similarities and qualify the claim of direct influence.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-06",
+      "world-10"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P7",
+    "year": 2016,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Has the formation of linguistic states strengthened the cause of Indian unity?",
+    "marks": "12.5",
+    "words": 200,
+    "demand": "Give a reasoned overall judgment with counter-evidence.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-03"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P8",
+    "year": 2018,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Discuss whether formation of new states in recent times is beneficial or not for the economy of India.",
+    "marks": "15",
+    "words": 250,
+    "demand": "Assess mechanisms and contrasting cases; no automatic causal claim.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-04"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P9",
+    "year": 2021,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Assess the main administrative issues and socio-cultural problems in the integration process of Indian Princely States.",
+    "marks": "10",
+    "words": 150,
+    "demand": "Cover both administrative and socio-cultural difficulties.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-02"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P10",
+    "year": 2022,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "The political and administrative reorganization of states and territories has been a continuous ongoing process since the mid-nineteenth century. Discuss with examples.",
+    "marks": "15",
+    "words": 250,
+    "demand": "Trace changing motives from colonial to democratic rule.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-02",
+      "post-03",
+      "post-04"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P11",
+    "year": 2025,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Trace India’s consolidation process during early phase of independence in terms of polity, economy, education and international relations.",
+    "marks": "15",
+    "words": 250,
+    "demand": "Use all four dimensions; stay mainly in the early decades.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-02",
+      "post-06",
+      "post-12",
+      "post-17"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P12",
+    "year": 2026,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "Linguistic reorganization of Indian States was driven by popular pressure from below. Comment.",
+    "marks": "15",
+    "words": 250,
+    "demand": "Explain popular mobilisation and the institutional response.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-03"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "P13",
+    "year": 2026,
+    "paper": "GS1",
+    "subject": "Post-Independence India",
+    "title": "The model of planned economy was adopted in India to address the regional imbalances left behind by colonial rule. Comment.",
+    "marks": "15",
+    "words": 250,
+    "demand": "Assess regional balance as one major aim, not the only aim.",
+    "route": "Read the linked chapters. Organise the answer around the demands above and add one qualification.",
+    "topics": [
+      "post-07"
+    ],
+    "status": "provisional",
+    "sourceTopic": "post-sources"
+  },
+  {
+    "id": "W01",
+    "year": 2013,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Japan's late industrialisation",
+    "marks": "10",
+    "words": 200,
+    "demand": "Compare state direction, imported technology, skills and timing with the West.",
+    "route": "Open with the latecomer advantage and the sovereignty threat. Compare state coordination, technology borrowing, education and private business. Qualify: Britain also used state power and Japan had social costs. End with adapted modernisation rather than a copied model.",
+    "topics": [
+      "world-08"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W02",
+    "year": 2013,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "European rivalry and Africa's artificial states",
+    "marks": "10",
+    "words": 200,
+    "demand": "Explain externally imposed boundaries and assess consequences.",
+    "route": "Start with the scramble, then connect rivalry to conquest and imposed jurisdictions. Use Berlin accurately: it set claim rules, not every border. Show divided communities, extraction and difficult state-building. Add African resistance and explain why later institutions also matter.",
+    "topics": [
+      "world-07"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W03",
+    "year": 2013,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "American revolt against mercantilism",
+    "marks": "10",
+    "words": 200,
+    "demand": "Substantiate the economic claim through mechanisms.",
+    "route": "Define mercantilism in one line. Explain trade restrictions, taxation, commercial interests and boycotts. Connect these to representation and the right to govern. Conclude that an economic revolt acquired a wider constitutional meaning; do not narrate every battle.",
+    "topics": [
+      "world-01"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W04",
+    "year": 2013,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Policies used against the Depression",
+    "marks": "10",
+    "words": 200,
+    "demand": "Identify policy instruments and the problem each addressed.",
+    "route": "Arrange the answer as problem and instrument: panic and bank stabilisation; weak demand and relief or public works; fragility and regulation; insecurity and social protection. Add monetary expansion and contrast harmful protectionism. State that recovery was uneven and policies varied by country.",
+    "topics": [
+      "world-13"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W05",
+    "year": 2014,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Lenin's NEP and India's early policies",
+    "marks": "10",
+    "words": 150,
+    "demand": "Evaluate similarities without assuming complete direct copying.",
+    "route": "Explain NEP as limited markets under state control of major sectors. Identify comparable space for private enterprise and public leadership in India. Then distinguish democratic institutions, the development context and diverse influences on Indian planning. Similar instruments do not prove identical models or a single line of influence.",
+    "topics": [
+      "world-05",
+      "world-10"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W06",
+    "year": 2014,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Suez events and Britain's global status",
+    "marks": "10",
+    "words": 150,
+    "demand": "Give the causal sequence, then evaluate the change in power.",
+    "route": "Use a short sequence: Aswan financing dispute, canal nationalisation, coordinated invasion, international and financial pressure, withdrawal. Spend the remaining space explaining the gap between military force and independent strategic power. Qualify 'final blow': a decisive symbol of decline, not the disappearance of British influence.",
+    "topics": [
+      "world-19"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W07",
+    "year": 2014,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "World developments motivating India's freedom struggle",
+    "marks": "10",
+    "words": 150,
+    "demand": "Link specific global developments to specific Indian responses.",
+    "route": "Group by political ideas, economic criticism and international examples. Connect rights to equality claims, Japan's 1905 victory to confidence, the Russian Revolution to socialist currents, and world wars to imperial weakness and mobilisation. Show Indian adaptation and domestic agency; avoid a disconnected list of foreign events.",
+    "topics": [
+      "world-01",
+      "world-02",
+      "world-08",
+      "world-10",
+      "world-16"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W08",
+    "year": 2015,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Why Britain industrialised first; living conditions; India comparison",
+    "marks": "12.5",
+    "words": 200,
+    "demand": "Answer all three parts in proportion.",
+    "route": "Use roughly half the body for the combination of markets, finance, energy, skills and institutions. Cover work, housing, sanitation and inequality next. Compare with India through informal work and migrant conditions, while recognising modern rights and public institutions. Do not equate different historical settings.",
+    "topics": [
+      "world-03"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W09",
+    "year": 2015,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Germany's responsibility for both world wars",
+    "marks": "12.5",
+    "words": 200,
+    "demand": "Assess each war separately, then compare the degree of responsibility.",
+    "route": "For 1914 explain German backing, strategy and escalation, alongside Austrian, Russian and wider rivalries. For 1939 emphasise deliberate Nazi conquest and racial empire; recognise appeasement and other aggressive powers as context. Your judgment should state why German responsibility was greater and clearer in the second war.",
+    "topics": [
+      "world-11",
+      "world-15"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W10",
+    "year": 2016,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Educated African elites and West African liberation",
+    "marks": "12.5",
+    "words": 200,
+    "demand": "Examine leadership and qualify with popular participation.",
+    "route": "Explain education, legal vocabulary, journalism and Pan-African networks. Use Nkrumah and Azikiwe for distinct examples. Then show that parties needed workers, farmers, women traders and other groups. Conclude that elites supplied important leadership within wider social struggles.",
+    "topics": [
+      "world-17"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W11",
+    "year": 2017,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Problems during Malayan decolonisation",
+    "marks": "10",
+    "words": 150,
+    "demand": "Identify the particular obstacles, not generic colonialism alone.",
+    "route": "Use four headings: citizenship and representation; ethnic and constitutional bargaining; communist insurgency and Emergency; rubber, tin and British strategic interests. Explain how the problems interacted. End with independence in 1957 while the Emergency continued to 1960. Keep Malaysia's later formation separate.",
+    "topics": [
+      "world-18"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W12",
+    "year": 2018,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Indian indenture and cultural identity overseas [overlap]",
+    "marks": "15",
+    "words": 250,
+    "demand": "Cover both labour demand and cultural continuity through adaptation.",
+    "route": "First explain post-slavery plantation demand, Indian rural distress, recruitment and coercive contracts. Then show religious practice, festivals, food, language and community institutions in destinations such as Mauritius and Trinidad. Include cultural mixing and changing identities. This is also a society and diaspora question, not only world history.",
+    "topics": [
+      "world-04"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W13",
+    "year": 2019,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "American and French revolutions as modern foundations",
+    "marks": "15",
+    "words": 250,
+    "demand": "Compare political contributions and acknowledge exclusions.",
+    "route": "Organise by sovereignty, rights, constitutionalism, equality and national identity. Link American federal institutions with the French attack on inherited privilege. Explain international diffusion and adaptation. Use slavery and women's exclusion to show incomplete promises; avoid two separate chronological essays.",
+    "topics": [
+      "world-01",
+      "world-02"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W14",
+    "year": 2021,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Interwar threats to the democratic state",
+    "marks": "15",
+    "words": 250,
+    "demand": "Evaluate the scale, causes, mechanisms and limits of the threat.",
+    "route": "Begin with fragile post-war legitimacy. Explain social conflict, economic crises, fascist organisation, elite accommodation and emergency powers. Use Italy and Germany precisely. Add the survival and adaptation of some democracies so the judgment is evaluated rather than universalised.",
+    "topics": [
+      "world-13",
+      "world-14"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W15",
+    "year": 2023,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "Railways' social and economic effects across countries",
+    "marks": "10",
+    "words": 150,
+    "demand": "Compare countries, effects and distribution.",
+    "route": "Use Britain for industrial linkages, the United States for continental markets and dispossession, and India for colonial exports plus mobility and political contact. Cover employment, migration and social exchange alongside economic integration. Conclude that institutions and ownership shaped gains.",
+    "topics": [
+      "world-04"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W16",
+    "year": 2024,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "First World War and the balance of power",
+    "marks": "15",
+    "words": 250,
+    "demand": "Test how far the explanation works, including its limits.",
+    "route": "Explain the German power shift and the security calculations of Britain, France, Russia and Austria-Hungary. Then add revisionist ambitions, nationalism, empire and July decisions. Distinguish preserving a balance from seeking to change it. Conclude that balance of power is a framework, not a complete single cause.",
+    "topics": [
+      "world-11"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W17",
+    "year": 2024,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "British industrialisation and Indian craft decline",
+    "marks": "15",
+    "words": 250,
+    "demand": "Assess machinery together with colonial policy and uneven outcomes.",
+    "route": "Explain productivity and price competition first. Then add trade asymmetry, political subordination, lost patronage and changing demand. Use railways as an amplifier of market penetration. Mention survival and adaptation of handlooms. Conclude that industrial superiority worked through colonial institutions rather than technology acting alone.",
+    "topics": [
+      "world-03",
+      "world-04"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  },
+  {
+    "id": "W18",
+    "year": 2025,
+    "paper": "GS1",
+    "subject": "World History",
+    "title": "French Revolution's continuing relevance",
+    "marks": "15",
+    "words": 250,
+    "demand": "Translate its principles into enduring questions and qualify the legacy.",
+    "route": "Use sovereignty, legal equality, liberty, civic nationhood and resistance to privilege. Explain each connection rather than adding modern slogans. Add women's exclusion, slavery and the Terror. Conclude that the revolution supplied standards by which later societies could judge its own failures as well as other injustices.",
+    "topics": [
+      "world-02"
+    ],
+    "status": "paraphrase",
+    "sourceTopic": "world-sources"
+  }
+]
