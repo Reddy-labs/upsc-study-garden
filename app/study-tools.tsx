@@ -3,11 +3,12 @@ import {useState} from 'react';
 import {ArrowUpRight,BookOpen,Check,PenLine,Search} from 'lucide-react';
 import revisionData from '@/data/revision.json';
 import pyqData from '@/data/pyqs.json';
+import {essayRevisionCards} from '@/lib/essay-lessons';
 export type StudyBlock={id:string;text:string;heading?:boolean};
 export type StudyTopic={id:string;title:string;paper:string;subject:string;description:string;blocks:StudyBlock[];source?:string;sourceUrl?:string;verification?:string};
 export type Pyq={id:string;year:number;paper:string;subject:string;title:string;marks:string;words:number;demand:string;route:string;topics:string[];status:string;sourceTopic:string};
 type Revision={keywords:string[];chain:string;points:{label:string;text:string}[];recall:string[]};
-export const revisionCards:Record<string,Revision>=revisionData;
+export const revisionCards:Record<string,Revision>={...revisionData,...essayRevisionCards};
 export const pyqs:Pyq[]=pyqData;
 export function quickBlocks(topic:StudyTopic):StudyBlock[]{const r=revisionCards[topic.id];if(!r)return[];return [{id:'quick-keywords',text:r.keywords.join(' · ')},{id:'quick-chain',text:r.chain},...r.points.map((p,i)=>({id:'quick-point-'+i,text:p.label+'\n'+p.text})),{id:'quick-recall',text:'Close the notes and recall\n'+r.recall.join('\n')}];}
 export function shortNoteText(topic:StudyTopic,excerpts:{quote?:string;note:string;tags:string[]}[]){const r=revisionCards[topic.id];const origin='Source topic: '+topic.title+'\n'+(topic.source||'Personal notes');if(excerpts.length)return origin+'\n\nMY KEYWORDS\n'+[...new Set(excerpts.flatMap(a=>a.tags))].join(' · ')+'\n\nMY SELECTED POINTS\n'+excerpts.map(a=>[a.quote,a.note].filter(Boolean).join('\n')).join('\n\n')+'\n\nRECALL\nWhat is the cause? How does it produce change? What is one qualification?';if(r)return origin+'\n\nKEYWORDS\n'+r.keywords.join(' · ')+'\n\nCAUSE → EFFECT\n'+r.chain+'\n\n'+r.points.map(p=>p.label.toUpperCase()+'\n'+p.text).join('\n\n')+'\n\nRECALL\n'+r.recall.join('\n');return origin+'\n\nKEYWORDS\nAdd 5–8 terms in your own words.\n\nCORE POINTS\n'+topic.blocks.slice(0,3).map(b=>b.text).join('\n\n')+'\n\nMY EXAMPLE\n\nLIMITATION\n\nRECALL QUESTION';}

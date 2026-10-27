@@ -33,3 +33,36 @@ assert.deepEqual(anchorSelection('  British India','  British India\n',0),{quote
 assert.equal(anchorSelection('First paragraph.','First paragraph.\nAnother paragraph.',0),null);
 assert.equal(anchorSelection('First paragraph.','   ',0),null);
 console.log('PASS: paragraph selection boundaries, whitespace offsets and multi-paragraph rejection.');
+const course=load('lib/essay-lessons.ts');
+assert.deepEqual(course.essayCourse.map(entry=>entry.day),Array.from({length:14},(_,i)=>i+1));
+assert.deepEqual(course.essayCourse.filter(entry=>entry.status==='awaiting-original').map(entry=>entry.day),[1,2,3,4,5,6,7,8]);
+assert.deepEqual(course.essayLessons.map(lesson=>lesson.day),[9,10,11,12,13,14]);
+const allIds=new Set([...topics,...course.essayTopics].map(topic=>topic.id));assert.equal(allIds.size,47);
+for(const lesson of course.essayLessons){
+ const topic=course.essayTopics.find(topic=>topic.id===course.essayLessonId(lesson.day));assert(topic);
+ assert.equal(lesson.recallQuestions.length,2);assert(lesson.anchors.length>=4&&lesson.anchors.length<=6);
+ for(const section of ['new-concept','older-recall','topic-decoding','thesis','framework','content-anchors','outline'])assert(lesson.sections.some(item=>item.id===section));
+ assert(lesson.essay.length>=8);assert(lesson.essay.join(' ').split(/\s+/).length>900);
+ assert(lesson.writePrompt.length>30);assert(lesson.boundary.length>40);assert(lesson.sources.length>0);
+ for(const source of lesson.sources)assert(new URL(source.url).protocol==='https:');
+ assert.equal(new Set(topic.blocks.map(block=>block.id)).size,topic.blocks.length);
+ assert(topic.blocks.some(block=>block.id==='model-essay-heading'));
+ assert(topic.blocks.some(block=>block.id==='write-prompt'));
+ assert.equal(tools.quickBlocks(topic).length,8);
+ assert(tools.shortNoteText(topic,[]).includes(lesson.thesis));
+ assert.equal(course.lessonForTopic(topic.id),lesson);
+ if(lesson.questionType==='practice')assert(!lesson.year);
+ if(lesson.questionType==='pyq')assert([2020,2022,2023,2024].includes(lesson.year));
+}
+assert(course.essayLessons.find(lesson=>lesson.day===14).sections.some(section=>section.id==='weekly-transfer'));
+const React=require('react');const {renderToStaticMarkup}=require('react-dom/server');const classroom=load('app/essay-classroom.tsx');
+const html=renderToStaticMarkup(React.createElement(classroom.EssayClassroom,{onOpen:()=>{}}));
+assert.equal((html.match(/data-essay-day=/g)||[]).length,14);
+assert.equal((html.match(/>Read Day /g)||[]).length,6);
+assert.equal((html.match(/>Awaiting original</g)||[]).length,8);
+assert(html.includes('not a claim that you completed'));
+const originalTopic=course.essayTopics[0];const originalBlock=originalTopic.blocks.find(block=>block.id==='essay-paragraph-01');
+const savedEssay={id:'essay-annotation-test',kind:'annotation',payload:{id:'essay-annotation-test',topicId:originalTopic.id,blockId:originalBlock.id,quote:originalBlock.text.slice(0,25),start:0,end:25,color:'yellow',tags:['essay revision'],note:'Keep the qualification',due:'2026-10-27',step:0,type:'highlight'}};
+await store.saveRecord(savedEssay);assert.equal((await store.readRecords())[0].payload.blockId,'essay-paragraph-01');await store.deleteRecord(savedEssay.id);
+console.log('PASS: 14 honest day slots, 6 complete imported lessons, unique annotation anchors, full essays, concepts, sources and lesson-specific writing prompts.');
+console.log('PASS: Essay classroom server rendering, missing-source labels, quick revision, short notes and essay highlight storage.');

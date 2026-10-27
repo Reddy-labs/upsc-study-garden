@@ -28,7 +28,8 @@ Use **Export my study data** for backups. **Restore a backup** merges records by
 - 18 Post-Independence India and 20 World History chapters.
 - 38 keyword revision cards and two full reference-guide texts.
 - 31 PYQ study routes: 13 provisional transcriptions and 18 paraphrased demands. This is a selected history index, not a complete original-paper-verified PYQ collection.
-- Six original practice MCQs and one starter essay lesson.
+- Six original practice MCQs and the preserved starter essay lesson.
+- A numbered 14-day Essay classroom: Days 9–14 contain imported concept cards, recall questions, decoding, frameworks, outlines, complete model essays, source links and writing prompts. Days 1–8 show the recovered lesson plan only and are clearly marked **awaiting original text**. They are not fabricated replacements or records of completed study.
 - GS2–GS4 shelves ready for future content.
 
 The reader offers Learn, Quick revision and Linked PYQs. **Create my short notes** makes an editable draft from selected passages or chapter keywords. No paid AI generation is used.
@@ -46,3 +47,13 @@ Tests cover browser-storage operations, record validation, backup data, topic li
 ## Future notes
 
 Use **Add topic notes** for personal material saved on your device, or edit `data/topics.json` to publish shared material. Topic IDs and block IDs are annotation anchors: preserve existing IDs and text where possible. Changing text can move old highlight offsets. Add new topics with new IDs. Keep actual PYQs, paraphrases and original practice clearly distinguished.
+
+## Daily essay archive
+
+Open **Essay classroom** or use `/#essay-classroom`. Full lesson links use stable IDs such as `/#essay-day-09` and `/#essay-day-14`. Existing starter and history topic IDs are unchanged.
+
+`data/essay-course.json` records the recovered first-14-day plan and explicit availability. Full recovered lesson text lives in `data/essays/day-09.json` through `day-14.json`; `lib/essay-lessons.ts` creates stable reader blocks and revision cards. Missing messages must be supplied before changing a day to `imported`. Do not turn inferred titles into claimed original lessons.
+
+Imported PYQ metadata retains the attribution from the original chat lesson and links its sources. Importing is not a new verification against original UPSC paper scans. Original practice is labelled separately. The imported essays are retained at their original length rather than silently edited to a new word count.
+
+Each lesson supports the existing highlights, bookmarks, tags and personal notes, plus quick revision, source links, section navigation and a lesson-specific 150-word writing target. The archive does not create fake study completion or recall history. Browser-local storage and backup behaviour are unchanged.

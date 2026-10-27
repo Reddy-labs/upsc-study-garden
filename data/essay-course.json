@@ -1,0 +1,16 @@
+[
+  {"day":1,"title":"Agency, perseverance and opportunity","conceptId":"C01","conceptTitle":"Bandura: self-efficacy","status":"awaiting-original"},
+  {"day":2,"title":"Justice and prosperity","conceptId":"C07","conceptTitle":"Sen: capabilities","status":"awaiting-original"},
+  {"day":3,"title":"Doubt, evidence and learning","conceptId":"C03","conceptTitle":"Popper: falsifiability","status":"awaiting-original"},
+  {"day":4,"title":"Action, equanimity and the journey","conceptId":"C10","conceptTitle":"Gita: action and equanimity","status":"awaiting-original"},
+  {"day":5,"title":"Power and character","conceptId":"C08","conceptTitle":"Constitutional morality","status":"awaiting-original"},
+  {"day":6,"title":"Forests and economic excellence","conceptId":"C06","conceptTitle":"Ecological interdependence","status":"awaiting-original"},
+  {"day":7,"title":"Social media and comparison","conceptId":"C19","conceptTitle":"Social comparison","status":"awaiting-original"},
+  {"day":8,"title":"Intuition and logic","conceptId":"C02","conceptTitle":"Fast and deliberate thinking","status":"awaiting-original"},
+  {"day":9,"title":"What should education leave within us?","conceptId":"C04","conceptTitle":"Cognitive reappraisal","status":"imported"},
+  {"day":10,"title":"How inequality reproduces itself","conceptId":"C05","conceptTitle":"Systems feedback","status":"imported"},
+  {"day":11,"title":"Happiness cannot always be postponed","conceptId":"C09","conceptTitle":"Gandhi: means and ends","status":"imported"},
+  {"day":12,"title":"Choice needs judgement","conceptId":"C11","conceptTitle":"Nachiketa: good and pleasant","status":"imported"},
+  {"day":13,"title":"Technology silently rearranges world power","conceptId":"C12","conceptTitle":"Samudra Manthan: benefits and burdens","status":"imported"},
+  {"day":14,"title":"Talent needs a doorway","conceptId":"C13","conceptTitle":"Ekalavya: access and exclusion","status":"imported"}
+]
