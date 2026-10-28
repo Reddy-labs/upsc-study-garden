@@ -1,0 +1,121 @@
+{
+  "day": 17,
+  "topic": "The time to repair the roof is when the sun is shining.",
+  "questionType": "pyq",
+  "year": 2022,
+  "framework": "Journey/change",
+  "thesis": "Periods of stability should be used to identify weaknesses, strengthen capacity and practise responses. Preparation cannot eliminate uncertainty, but it can reduce avoidable harm. Its responsibility belongs both to individuals and to institutions that provide the resources and opportunities needed to prepare.",
+  "concept": "C16 — Sendai: risk reduction and preparedness. The Sendai Framework, adopted on 18 March 2015 for 2015–2030, organises action to reduce disaster risks and losses. It is broader than emergency response.",
+  "mechanism": "Identify weaknesses → reduce avoidable risks → prepare for remaining risks → test arrangements → learn and improve.",
+  "example": "Inspecting drainage before the monsoon reduces risk; practising evacuation improves preparedness. They serve different but connected purposes.",
+  "boundary": "This is a governance framework, not a scientific law or guarantee of safety. Preparation requires resources, must remain proportionate, and cannot predict every future event.",
+  "anchors": [
+    "Sendai — policy framework: connect risk knowledge with governance, investment, preparedness and recovery.",
+    "Odisha, Phailin, 2013 — historical evidence: UN disaster-risk reporting documented evacuation before the cyclone. Our analytical lesson is that warnings need organised action.",
+    "Drainage maintenance — hypothetical illustration: routine inspection can address weaknesses before heavy rainfall.",
+    "Answer-writing practice — analogy: discover recall gaps while there is time to change preparation.",
+    "C15 accountability — analytical model: assign responsibility so identified weaknesses actually receive attention.",
+    "C07 capabilities — philosophical reasoning: distinguish unwillingness to prepare from inability to prepare."
+  ],
+  "recallQuestions": [
+    {
+      "question": "C15 — Does accountability mean punishing every unsuccessful decision?",
+      "answer": "No. Scrutiny must distinguish misconduct and negligence from inadequate capacity, reasonable uncertainty and honest mistakes. Accountability should enable correction without encouraging concealment."
+    },
+    {
+      "question": "C07 — Why is receiving a warning different from having the capability to act on it?",
+      "answer": "Someone may understand a warning but lack transport, accessible shelter, money or assistance. Information becomes meaningful protection only when people can use it."
+    }
+  ],
+  "sections": [
+    {
+      "id": "new-concept",
+      "title": "New card — C16: Sendai — risk reduction and preparedness",
+      "paragraphs": [
+        "Meaning: The Sendai Framework, adopted on 18 March 2015 for 2015–2030, organises action to reduce disaster risks and losses. It is broader than emergency response. Its four priorities concern understanding risk, strengthening governance, investing in resilience, and preparing for response and safer recovery.",
+        "Mechanism: Identify weaknesses → reduce avoidable risks → prepare for remaining risks → test arrangements → learn and improve.\nExample: Inspecting drainage before the monsoon reduces risk; practising evacuation improves preparedness. They serve different but connected purposes.",
+        "Useful connections: Foresight, governance, infrastructure, climate resilience, institutional learning and—by analogy—examination preparation.\nBoundary: This is a governance framework, not a scientific law or guarantee of safety. Preparation requires resources, must remain proportionate, and cannot predict every future event.",
+        "Original memory line: Preparedness is not prediction made perfect; it is capacity built before pressure."
+      ]
+    },
+    {
+      "id": "older-recall",
+      "title": "Two older-card recall questions",
+      "paragraphs": [
+        "C15 — Accountability\nQuestion: Does accountability mean punishing every unsuccessful decision?\nAnswer: No. Scrutiny must distinguish misconduct and negligence from inadequate capacity, reasonable uncertainty and honest mistakes. Accountability should enable correction without encouraging concealment.",
+        "C07 — Capabilities\nQuestion: Why is receiving a warning different from having the capability to act on it?\nAnswer: Someone may understand a warning but lack transport, accessible shelter, money or assistance. Information becomes meaningful protection only when people can use it."
+      ]
+    },
+    {
+      "id": "topic-decoding",
+      "title": "Verified PYQ and metaphor decoding",
+      "paragraphs": [
+        "UPSC Essay, 2022 — Section B, Topic 5 overall. Wording and year were verified against the official paper and its transcription in the original lesson.",
+        "Roof: Systems that protect us—skills, infrastructure, institutions and relationships.\nRepair: Identify and correct weaknesses.\nSunshine: Relative stability and freedom to choose.\nComing storm: A possible future challenge—not necessarily a precisely predictable event.",
+        "Avoid this trap: Writing only a disaster-management answer. Disaster preparedness is one strong example; the larger subject is responsible action before necessity removes our choices."
+      ]
+    },
+    {
+      "id": "thesis",
+      "title": "Defensible thesis",
+      "paragraphs": [
+        "Periods of stability should be used to identify weaknesses, strengthen capacity and practise responses. Preparation cannot eliminate uncertainty, but it can reduce avoidable harm. Its responsibility belongs both to individuals and to institutions that provide the resources and opportunities needed to prepare."
+      ]
+    },
+    {
+      "id": "framework",
+      "title": "Framework — Journey/change",
+      "paragraphs": [
+        "Start → obstacle → response → learning → transformation → limits.\nThis fits because the essay traces a movement from complacency to preparedness.\nStart: Normal life creates confidence.\nObstacle: Invisible risks and immediate costs encourage postponement.\nResponse: Inspect weaknesses and act early.\nLearning: Test arrangements and correct failures.\nTransformation: Build resilience rather than depend entirely on emergency improvisation.\nLimits: Uncertainty remains; resources and opportunities are unequal.",
+        "Meaning: Absence of immediate trouble does not establish safety.\nClaim: Calm periods provide valuable opportunities for preventive action.\nMechanism: Earlier action allows inspection, deliberation, coordination and correction.\nExample: Evacuation arrangements must exist before a cyclone makes movement dangerous.\nLimit: People cannot prepare equally when resources differ.\nSynthesis: Combine personal foresight with enabling institutions and proportionate investment."
+      ]
+    },
+    {
+      "id": "content-anchors",
+      "title": "Six reusable content anchors",
+      "paragraphs": [
+        "1. Sendai — policy framework: connect risk knowledge with governance, investment, preparedness and recovery.\n2. Odisha, Phailin, 2013 — historical evidence: UN disaster-risk reporting documented evacuation before the cyclone. Our analytical lesson is that warnings need organised action.\n3. Drainage maintenance — hypothetical illustration: routine inspection can address weaknesses before heavy rainfall.\n4. Answer-writing practice — analogy: discover recall gaps while there is time to change preparation.\n5. C15 accountability — analytical model: assign responsibility so identified weaknesses actually receive attention.\n6. C07 capabilities — philosophical reasoning: distinguish unwillingness to prepare from inability to prepare."
+      ]
+    },
+    {
+      "id": "outline",
+      "title": "Ten-paragraph outline",
+      "paragraphs": [
+        "1. Opening: A roof becomes harder to repair once the storm begins.\n2. Interpretation: Explain the metaphor without encouraging constant fear.\n3. Obstacle: Show why prevention is postponed despite its importance.\n4. Institutional response: Introduce Sendai’s approach.\n5. Historical example: Explain warning-to-action through Odisha.\n6. Everyday governance: Apply the principle to maintenance and accountability.\n7. Individual agency: Connect practice, feedback and examination readiness.\n8. Social foundations: Explain why trust and dialogue need maintenance.\n9. Limits: Consider costs, uncertainty and unequal capabilities.\n10. Conclusion: Build protection before desperation becomes the only option."
+      ]
+    }
+  ],
+  "essay": [
+    "A roof that leaks during a storm was often already weak while the weather was clear. Yet the absence of rain makes the damage easier to ignore. Once water enters the house, repair becomes more dangerous, expensive and hurried. The proverb directs attention to this gap between when a problem becomes visible and when it can be addressed most effectively. Its significance extends beyond buildings. Individuals and societies frequently postpone necessary preparation because ordinary life appears to be functioning. Wisdom lies in using periods of relative stability to strengthen the conditions on which that stability depends. The opportunity is valuable precisely because decisions can still be made deliberately rather than under compulsion.",
+    "The roof represents the systems that protect us: knowledge, infrastructure, institutions, relationships and practical skills. Sunshine represents an interval in which there is greater freedom to inspect weaknesses and choose a response. The coming storm need not be predicted with certainty for maintenance to be worthwhile. We routinely act under uncertainty, and some protections are useful across many possible futures. However, the proverb should not encourage constant fear. Its strongest meaning is that confidence in the present should create room for responsible preparation, rather than become an excuse for neglecting foreseeable vulnerabilities.",
+    "Postponement has understandable causes. The benefits of prevention are often invisible, while its costs are immediate. A repaired drain may attract less attention than a dramatic rescue, although both can serve public welfare. A learner may prefer another familiar chapter to an uncomfortable test that exposes weak understanding. Organisations may reward visible expansion while treating maintenance as an expense that can wait. These are illustrative incentive problems, not universal psychological laws. They explain why awareness alone may be insufficient. Preparation becomes more likely when time, budgets and responsibility are assigned before urgency forces attention. A preventive measure must therefore be judged not only by what it builds, but also by the disruption it may help avoid.",
+    "The Sendai Framework for Disaster Risk Reduction gives this insight an institutional form. Adopted in 2015 for the period ending in 2030, it links understanding risk, strengthening governance, investing in resilience and improving preparedness and recovery. These are related but distinct tasks. Safer planning can reduce exposure to danger; rehearsed evacuation can improve the response to danger that remains. Neither requires claiming that every hazard can be prevented. The framework shifts the question from how impressively a government reacts after destruction to how responsibly institutions reduce vulnerability before destruction and rebuild afterwards.",
+    "Odisha’s preparations for Cyclone Phailin in 2013 illustrate the importance of connecting warning with action. UN disaster-risk reporting highlighted the evacuation before the cyclone and the work of local officials and communities. The useful lesson is not a simplistic comparison of death tolls across different storms. It is the mechanism: information must reach people, trusted authorities must communicate, shelters must be usable and movement must begin while movement remains possible. A forecast by itself cannot provide protection. Preparedness turns knowledge of danger into an organised capacity to respond.",
+    "This principle also applies to ordinary urban administration. Consider a hypothetical city that inspects drainage, repairs weak structures and clarifies emergency responsibilities before the monsoon. These activities may look less urgent than new construction, yet they protect the usefulness of existing development. Maintenance is a continuing public service, not an admission that infrastructure has failed completely. Accountability matters because the responsibility for an overlooked weakness can disappear between departments. Clear ownership, recorded inspections and follow-up create a connection between identifying a problem and correcting it. Preparation requires a functioning chain of action, not merely a completed planning document. An annual checklist is useful only if someone verifies the work, addresses unresolved faults and ensures that emergency arrangements remain usable as the city changes.",
+    "At the individual level, the proverb speaks to learning without promising success. An aspirant who writes practice answers before the examination discovers whether ideas can be recalled and connected under time pressure. Reading alone may conceal that difficulty because recognising an explanation is easier than independently reconstructing it. A modest daily exercise can reveal a missing mechanism or an example that does not support the claim. Feedback then has time to change future practice. This is an analogy with preparedness, not a guarantee of selection. The purpose is to make weaknesses available for correction before the decisive test.",
+    "Some of society’s most important roofs are less tangible. Trust between communities, the credibility of public institutions and habits of respectful disagreement cannot be manufactured instantly during conflict. They are strengthened through ordinary experiences of fairness, responsiveness and inclusion. A grievance heard early may be easier to resolve than one dismissed until frustration becomes confrontation. This does not imply that every conflict results from inadequate listening or that dialogue removes incompatible interests. It means that relationships and procedures need maintenance too. Societies should cultivate the capacity for cooperation before circumstances make cooperation urgently necessary. Preventive governance includes the patient work of maintaining channels through which disagreement can be expressed without humiliation, exclusion or fear of retaliation.",
+    "Preparedness nevertheless has costs and ethical limits. Resources devoted to one possible danger cannot simultaneously meet every immediate need. Excessive protection against an unlikely scenario may leave more common difficulties unattended. Poor households may understand a risk yet lack the income, secure housing or transport needed to reduce it. Calling them careless mistakes inability for indifference. Public policy should prioritise serious vulnerabilities, provide support and examine whether protective measures themselves impose unfair burdens. It should also preserve flexibility because future events may differ from past experience. The aim is proportionate resilience, not the illusion of complete control. Some measures, such as clear responsibilities, accessible communication and regular maintenance, may serve several risks at once. Their practical value comes from strengthening everyday services as well as emergency readiness.",
+    "The journey from complacency to preparedness therefore requires more than alarm. It begins with recognising a weakness, continues through organised action and improves through testing and correction. Sunshine should be used not only to repair an existing roof but also to ask whose shelter is missing altogether. Individuals can practise, maintain and learn; institutions must provide the information, resources and fair opportunities that make those efforts effective. Storms cannot always be avoided, and preparation cannot promise an undamaged future. But a society acts responsibly when foreseeable harm is neither ignored nor accepted as inevitable, and when protection is built before desperation becomes its only architect."
+  ],
+  "recallCard": "Meaning: Use stability to address weaknesses before crisis.\nMechanism: Inspect → prepare → test → correct.\nExample: Connect cyclone warnings with workable evacuation arrangements.\nLimit: Uncertainty persists, and people have unequal resources.\nSynthesis: Combine foresight with accountable institutions and real opportunity.",
+  "dailyRoutine": "Recall — 5 minutes: Answer the C15 and C07 questions without looking.\nNew concept — 5 minutes: Explain the difference between risk reduction and preparedness using drainage and evacuation.\nRead — 10–15 minutes: Close the essay and reconstruct its thesis in two sentences.\nWrite — 10 minutes: Write 120–150 words on the prompt below.",
+  "writePrompt": "The absence of a crisis is not evidence that a system is safe. Reconstruct the thesis in two sentences, then write 120–150 words. Include one institutional action and one sentence explaining why lack of preparedness cannot always be blamed on individuals.",
+  "sources": [
+    {
+      "label": "UPSC: official Civil Services Main Examination 2022 Essay paper",
+      "url": "https://www.upsc.gov.in/sites/default/files/QP-CSM-22-ESSAY-190922.pdf"
+    },
+    {
+      "label": "UNDRR: Sendai Framework for Disaster Risk Reduction 2015–2030; adopted 18 March 2015",
+      "url": "https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030"
+    },
+    {
+      "label": "UNDRR, 23 December 2013: Cyclone evacuation to become a global example",
+      "url": "https://www.undrr.org/news/cyclone-evacuation-become-global-example"
+    },
+    {
+      "label": "UNDRR, 24 December 2013: Local leaders pinpoint key to early warning success",
+      "url": "https://www.undrr.org/news/local-leaders-pinpoint-key-early-warning-success"
+    }
+  ]
+}

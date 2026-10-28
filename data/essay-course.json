@@ -12,5 +12,9 @@
   {"day":11,"title":"Happiness cannot always be postponed","conceptId":"C09","conceptTitle":"Gandhi: means and ends","status":"imported"},
   {"day":12,"title":"Choice needs judgement","conceptId":"C11","conceptTitle":"Nachiketa: good and pleasant","status":"imported"},
   {"day":13,"title":"Technology silently rearranges world power","conceptId":"C12","conceptTitle":"Samudra Manthan: benefits and burdens","status":"imported"},
-  {"day":14,"title":"Talent needs a doorway","conceptId":"C13","conceptTitle":"Ekalavya: access and exclusion","status":"imported"}
+  {"day":14,"title":"Talent needs a doorway","conceptId":"C13","conceptTitle":"Ekalavya: access and exclusion","status":"imported"},
+  {"day":15,"title":"Shared resources require shared rules and shared responsibility","conceptId":"C14","conceptTitle":"Ostrom: governing the commons","status":"awaiting-original"},
+  {"day":16,"title":"Delegated power must remain answerable to those it serves","conceptId":"C15","conceptTitle":"Principal–agent accountability","status":"awaiting-original"},
+  {"day":17,"title":"Prepare while there is still time","conceptId":"C16","conceptTitle":"Sendai: risk reduction and preparedness","status":"imported"},
+  {"day":18,"title":"Improving the best","conceptId":"C17","conceptTitle":"Policy experiments","status":"imported"}
 ]
