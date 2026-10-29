@@ -7,6 +7,7 @@ import day13 from '@/data/essays/day-13.json';
 import day14 from '@/data/essays/day-14.json';
 import day17 from '@/data/essays/day-17.json';
 import day18 from '@/data/essays/day-18.json';
+import day19 from '@/data/essays/day-19.json';
 
 export type LessonSection = {id:string;title:string;paragraphs:string[]};
 export type LessonSource = {label:string;url:string};
@@ -19,7 +20,7 @@ export type EssayLesson = {
 };
 export type CourseEntry = {day:number;title:string;conceptId:string;conceptTitle:string;status:'imported'|'awaiting-original'};
 export const essayCourse = course as CourseEntry[];
-export const essayLessons = [day09,day10,day11,day12,day13,day14,day17,day18] as EssayLesson[];
+export const essayLessons = [day09,day10,day11,day12,day13,day14,day17,day18,day19] as EssayLesson[];
 export const essayLessonId = (day:number) => 'essay-day-'+String(day).padStart(2,'0');
 export const lessonForTopic = (id:string) => essayLessons.find(lesson=>essayLessonId(lesson.day)===id);
 

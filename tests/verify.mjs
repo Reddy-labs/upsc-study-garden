@@ -34,11 +34,11 @@ assert.equal(anchorSelection('First paragraph.','First paragraph.\nAnother parag
 assert.equal(anchorSelection('First paragraph.','   ',0),null);
 console.log('PASS: paragraph selection boundaries, whitespace offsets and multi-paragraph rejection.');
 const course=load('lib/essay-lessons.ts');
-assert.deepEqual(course.essayCourse.map(entry=>entry.day),Array.from({length:18},(_,i)=>i+1));
+assert.deepEqual(course.essayCourse.map(entry=>entry.day),Array.from({length:19},(_,i)=>i+1));
 assert.deepEqual(course.essayCourse.filter(entry=>entry.status==='awaiting-original').map(entry=>entry.day),[1,2,3,4,5,6,7,8,15,16]);
-assert.deepEqual(course.essayLessons.map(lesson=>lesson.day),[9,10,11,12,13,14,17,18]);
+assert.deepEqual(course.essayLessons.map(lesson=>lesson.day),[9,10,11,12,13,14,17,18,19]);
 assert.deepEqual(course.essayCourse.filter(entry=>entry.status==='imported').map(entry=>entry.day),course.essayLessons.map(lesson=>lesson.day));
-const allIds=new Set([...topics,...course.essayTopics].map(topic=>topic.id));assert.equal(allIds.size,49);
+const allIds=new Set([...topics,...course.essayTopics].map(topic=>topic.id));assert.equal(allIds.size,50);
 for(const lesson of course.essayLessons){
  const topic=course.essayTopics.find(topic=>topic.id===course.essayLessonId(lesson.day));assert(topic);
  assert.equal(lesson.recallQuestions.length,2);assert(lesson.anchors.length>=4&&lesson.anchors.length<=6);
@@ -58,29 +58,34 @@ for(const lesson of course.essayLessons){
 assert(course.essayLessons.find(lesson=>lesson.day===14).sections.some(section=>section.id==='weekly-transfer'));
 const React=require('react');const {renderToStaticMarkup}=require('react-dom/server');const classroom=load('app/essay-classroom.tsx');
 const html=renderToStaticMarkup(React.createElement(classroom.EssayClassroom,{onOpen:()=>{}}));
-assert.equal((html.match(/data-essay-day=/g)||[]).length,18);
-assert.equal((html.match(/>Read Day /g)||[]).length,8);
+assert.equal((html.match(/data-essay-day=/g)||[]).length,19);
+assert.equal((html.match(/>Read Day /g)||[]).length,9);
 assert.equal((html.match(/>Awaiting original</g)||[]).length,10);
-assert(html.includes('8 full lessons')&&html.includes('10 awaiting originals'));
-assert(html.includes('All 18 days'));
+assert(html.includes('9 full lessons')&&html.includes('10 awaiting originals'));
+assert(html.includes('All 19 days'));
 assert(!html.includes('14-day'));
 assert(html.includes('not a claim that you completed'));
-for(const day of [17,18]){
+for(const day of [17,18,19]){
  const lesson=course.essayLessons.find(lesson=>lesson.day===day);
  const wordCount=lesson.essay.join(' ').split(/\s+/).length;assert(wordCount>=1000&&wordCount<=1200);
  const topic=course.essayTopics.find(topic=>topic.id===course.essayLessonId(day));
  assert.equal(topic.blocks.find(block=>block.id==='recall-card').text,lesson.recallCard);
  assert.equal(topic.blocks.find(block=>block.id==='daily-routine').text,lesson.dailyRoutine);
  const nav=renderToStaticMarkup(React.createElement(classroom.EssayLessonNavigation,{lesson,onOpen:()=>{},onJump:()=>{}}));
- assert(nav.includes('DAY '+day+' OF 18'));
+ assert(nav.includes('DAY '+day+' OF 19'));
  const sourcePanel=renderToStaticMarkup(React.createElement(classroom.EssayQuestionSource,{topicId:topic.id}));
  assert(sourcePanel.includes('www.upsc.gov.in/sites/default/files/QP-CSM-'));
  assert(sourcePanel.includes(lesson.year.toString()));
 }
 assert(course.essayLessons.find(lesson=>lesson.day===17).dailyRoutine.includes('risk reduction and preparedness'));
 assert(course.essayLessons.find(lesson=>lesson.day===18).dailyRoutine.includes('does not necessarily mean'));
+const day19=course.essayLessons.find(lesson=>lesson.day===19);
+assert.equal(day19.framework,'Public issue');assert.equal(day19.year,2023);
+assert(day19.dailyRoutine.includes('C17 and C08'));
+assert(day19.writePrompt.includes('family-level action')&&day19.writePrompt.includes('institutional action'));
+assert(course.essayCourse.find(entry=>entry.day===19).conceptId==='C18');
 const originalTopic=course.essayTopics[0];const originalBlock=originalTopic.blocks.find(block=>block.id==='essay-paragraph-01');
 const savedEssay={id:'essay-annotation-test',kind:'annotation',payload:{id:'essay-annotation-test',topicId:originalTopic.id,blockId:originalBlock.id,quote:originalBlock.text.slice(0,25),start:0,end:25,color:'yellow',tags:['essay revision'],note:'Keep the qualification',due:'2026-10-27',step:0,type:'highlight'}};
 await store.saveRecord(savedEssay);assert.equal((await store.readRecords())[0].payload.blockId,'essay-paragraph-01');await store.deleteRecord(savedEssay.id);
-console.log('PASS: 18 honest day slots, 8 complete imported lessons, unique annotation anchors, full essays, concepts, sources and lesson-specific writing prompts.');
+console.log('PASS: 19 honest day slots, 9 complete imported lessons, unique annotation anchors, full essays, concepts, sources and lesson-specific writing prompts.');
 console.log('PASS: Essay classroom server rendering, missing-source labels, quick revision, short notes and essay highlight storage.');

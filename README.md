@@ -29,7 +29,7 @@ Use **Export my study data** for backups. **Restore a backup** merges records by
 - 38 keyword revision cards and two full reference-guide texts.
 - 31 PYQ study routes: 13 provisional transcriptions and 18 paraphrased demands. This is a selected history index, not a complete original-paper-verified PYQ collection.
 - Six original practice MCQs and the preserved starter essay lesson.
-- A numbered 18-day Essay classroom: Days 9–14 and 17–18 contain imported concept cards, recall questions, decoding, frameworks, outlines, complete model essays, source links and writing prompts. Days 1–8 and 15–16 show the recovered lesson plan only and are clearly marked **awaiting original text**. They are not fabricated replacements or records of completed study.
+- A numbered 19-day Essay classroom: Days 9–14 and 17–19 contain imported concept cards, recall questions, decoding, frameworks, outlines, complete model essays, source links and writing prompts. Days 1–8 and 15–16 show the recovered lesson plan only and are clearly marked **awaiting original text**. They are not fabricated replacements or records of completed study.
 - GS2–GS4 shelves ready for future content.
 
 The reader offers Learn, Quick revision and Linked PYQs. **Create my short notes** makes an editable draft from selected passages or chapter keywords. No paid AI generation is used.
@@ -50,9 +50,9 @@ Use **Add topic notes** for personal material saved on your device, or edit `dat
 
 ## Daily essay archive
 
-Open **Essay classroom** or use `/#essay-classroom`. Full lesson links use stable IDs such as `/#essay-day-09`, `/#essay-day-17` and `/#essay-day-18`. Existing starter and history topic IDs are unchanged.
+Open **Essay classroom** or use `/#essay-classroom`. Full lesson links use stable IDs such as `/#essay-day-09`, `/#essay-day-17` and `/#essay-day-19`. Existing starter and history topic IDs are unchanged.
 
-`data/essay-course.json` records the recovered 18-day plan and explicit availability. Full recovered lesson text lives in `data/essays/day-09.json` through `day-14.json`, plus `day-17.json` and `day-18.json`; `lib/essay-lessons.ts` creates stable reader blocks and revision cards. Counts and day totals derive from the course data. Missing messages must be supplied before changing a day to `imported`. Do not turn inferred titles into claimed original lessons. Optional `recallCard` and `dailyRoutine` fields preserve the specific closing exercises in newly imported lessons without changing existing annotation blocks.
+`data/essay-course.json` records the recovered 19-day plan and explicit availability. Full recovered lesson text lives in `data/essays/day-09.json` through `day-14.json`, plus `day-17.json` through `day-19.json`; `lib/essay-lessons.ts` creates stable reader blocks and revision cards. Counts and day totals derive from the course data. Missing messages must be supplied before changing a day to `imported`. Do not turn inferred titles into claimed original lessons. Optional `recallCard` and `dailyRoutine` fields preserve the specific closing exercises in newly imported lessons without changing existing annotation blocks.
 
 Imported PYQ metadata retains the attribution from the original chat lesson and links its sources. Importing is not a new verification against original UPSC paper scans. Original practice is labelled separately. The imported essays are retained at their original length rather than silently edited to a new word count.
 
