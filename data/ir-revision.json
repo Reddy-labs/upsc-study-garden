@@ -1,0 +1,1333 @@
+{
+  "ir-frameworks": {
+    "keywords": [
+      "Place",
+      "Flows",
+      "National interest",
+      "Mechanism",
+      "Evidence",
+      "Constraint",
+      "Feasible response"
+    ],
+    "chain": "Locate the issue → identify India’s interests → explain a mechanism with evidence → weigh constraints → give a feasible response",
+    "points": [
+      {
+        "label": "Decode the demand",
+        "text": "Underline the actor, issue and directive. Split explicit sub-demands before choosing headings or allocating words."
+      },
+      {
+        "label": "Choose relevant lenses",
+        "text": "Use security, economic, technology, human and institutional interests only where they answer the question. Do not force every lens into every answer."
+      },
+      {
+        "label": "Build an analytical point",
+        "text": "State a claim, explain how it works, support it with a relevant example and identify the implication for India."
+      },
+      {
+        "label": "Reach a qualified judgement",
+        "text": "Name a real trade-off or implementation constraint. Match each recommendation to a diagnosed problem and the actor able to address it."
+      }
+    ],
+    "recall": [
+      "What exactly does the directive require?",
+      "Can I explain how my example supports the claim?",
+      "What trade-off changes my final judgement?"
+    ]
+  },
+  "ir-syllabus-patterns": {
+    "keywords": [
+      "The national-interest lenses",
+      "The 2026 paper makes the method clear",
+      "Syllabus & what the PYQs test",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "India and neighbours",
+        "text": "Why a neighbour matters; domestic politics; China; water, borders and connectivity. · One page per neighbour + one regional map."
+      },
+      {
+        "label": "Bilateral/regional/global arrangements",
+        "text": "What a partnership delivers; why it is constrained; whether it complements another forum. · Purpose → instruments → results → limits."
+      },
+      {
+        "label": "External policies and diaspora",
+        "text": "How tariffs, wars, migration rules or technology restrictions affect India. · Policy → transmission channel → Indian impact → response."
+      },
+      {
+        "label": "International institutions",
+        "text": "Structure/mandate; performance; power and funding; reforms that India needs. · Mandate → tools → record → gap → feasible reform."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-foreign-policy": {
+    "keywords": [
+      "A minimum chronological spine",
+      "Foreign policy: concepts & chronology",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "National interest",
+        "text": "Protecting security, prosperity, citizens and the ability to make choices. · Explain why a relationship matters."
+      },
+      {
+        "label": "Strategic autonomy",
+        "text": "Capacity to choose issue-specific policies despite external pressure. · It requires economic/defence capacity and diversified dependencies."
+      },
+      {
+        "label": "Non-alignment / multi-alignment",
+        "text": "Non-alignment arose in the Cold War; multiple present partnerships offer issue-based cooperation. · Neither means avoiding all positions or having no partners."
+      },
+      {
+        "label": "Balance of power",
+        "text": "Preventing excessive concentration of power by building capabilities and partnerships. · Explain Indo-Pacific cooperation without calling every forum an alliance."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-topper-lessons": {
+    "keywords": [
+      "A useful caution from the same copies",
+      "Lessons from topper practice copies",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "Copies inspected: Ruhani (AIR 5, CSE 2023) and Kunal Rastogi (AIR 15, CSE 2023), ForumIAS MGP GS II practice booklets. The observations below concern visible writing choices; they do not prove why a candidate scored well in UPSC."
+      },
+      {
+        "label": "West Asia, Q9\nPDF pp. 19-20 in both copies",
+        "text": "Ruhani: a benefits diagram and a separate risks section. Kunal: a location sketch followed by numbered arguments. · Match the two halves of the question: gains first, actors/risks next."
+      },
+      {
+        "label": "India-Africa, Q19\nRuhani pp. 47-49; Kunal pp. 47-49",
+        "text": "Headings mirror inclusive, sustainable and equitable development. Visuals/examples support those headings. · Use the question's own criteria as body headings."
+      },
+      {
+        "label": "Indo-Pacific, Q20\nPDF pp. 50-52 in both copies",
+        "text": "Both use a map. Separate sections address ASEAN, rules, development and hurdles. Kunal gives denser examples. · A map should locate your argument; give each explicit demand space."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-neighbourhood": {
+    "keywords": [
+      "Why goodwill sometimes fails to produce influence",
+      "The neighbourhood framework",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Asymmetry + old mistrust → Domestic political mobilisation → Projects seen as interference → Support becomes fragile",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "• Geographic closeness creates exposure: violence, floods, migration and disease cross borders."
+      },
+      {
+        "label": "Core point 2",
+        "text": "• Economic asymmetry creates anxiety: a small neighbour may diversify partners even while valuing India."
+      },
+      {
+        "label": "Core point 3",
+        "text": "• Domestic politics matters: parties, border communities, businesses and provincial governments have different interests."
+      },
+      {
+        "label": "Core point 4",
+        "text": "• China matters, but does not explain everything: neighbours also seek infrastructure, credit, markets and bargaining space."
+      }
+    ],
+    "recall": [
+      "Recall: Why would a neighbour accept help from a rival power even if it has cultural ties with India? Generate three non-China explanations before reading country notes.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-china": {
+    "keywords": [
+      "India's response: four connected tracks",
+      "China: competition, management & security",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Industrial / financial scale → Infrastructure + dual-use capability → Wider strategic reach → Pressure on India's choices",
+    "points": [
+      {
+        "label": "Boundary and military risk",
+        "text": "An unsettled boundary, differing perceptions of the LAC and military deployments create mistrust. Separate disengagement, de-escalation and final boundary settlement."
+      },
+      {
+        "label": "Economic link",
+        "text": "Intermediate goods and manufacturing inputs can support Indian production; concentrated dependence raises disruption and bargaining risks."
+      },
+      {
+        "label": "Regional influence",
+        "text": "Infrastructure, finance and political ties expand China's presence. Analyse project terms and actual access rather than treating every port as a military base."
+      },
+      {
+        "label": "Wider order",
+        "text": "Both cooperate in some multilateral forums while differing on regional security and institutional influence."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-pakistan-afghanistan": {
+    "keywords": [
+      "Pakistan: structure a difficult relationship",
+      "Afghanistan: separate engagement from recognition",
+      "Pakistan & Afghanistan",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Terrorist violence → Trust and dialogue suffer → Regional cooperation weakens → Need security + crisis control",
+    "points": [
+      {
+        "label": "Pakistan",
+        "text": "Cross-border terrorism; escalation control; water; regional transit; people-to-people links. · Hostile security policies and mistrust limit cooperation. Combine deterrence and credible counter-terror demands with crisis communication and humanitarian channels."
+      },
+      {
+        "label": "Afghanistan",
+        "text": "Terror safe havens; regional stability; humanitarian welfare; access toward Central Asia; past development investment. · Security, rights and uncertain political arrangements complicate engagement. Protect assistance, assess security commitments and maintain practical contacts."
+      },
+      {
+        "label": "Core point 3",
+        "text": "Soft power has a limited role: sport, pilgrims, culture and medical links can reduce social hostility, but cannot substitute for action against organised violence. This is the qualification needed for the 2015 question."
+      },
+      {
+        "label": "Core point 4",
+        "text": "The Indus Waters Treaty is a 1960 framework. India announced that it would hold it in abeyance in April 2025; an official Indian statement dated 31 August 2026 reiterated that position. Attribute this as India's stated position. Legal interpretation is contested; \"abeyance\" is not the same as a mutually agreed treaty termination."
+      }
+    ],
+    "recall": [
+      "Recall: Explain how a security vacuum in Afghanistan can affect India without a shared, directly usable transit route.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-bangladesh-myanmar": {
+    "keywords": [
+      "Bangladesh: three points that travel across questions",
+      "Myanmar: show the policy tension",
+      "Bangladesh & Myanmar",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Conflict near border → Displacement + illicit trade → Local insecurity + project delays → Calibrated border + relief policy",
+    "points": [
+      {
+        "label": "Bangladesh",
+        "text": "Access to India's Northeast; river systems; power/trade links; Bay of Bengal; shared historical and social connections. · Domestic political shifts, border incidents, water-sharing and identity politics can weaken trust. Protect functional cooperation and avoid identifying the relationship with one party."
+      },
+      {
+        "label": "Myanmar",
+        "text": "Land bridge toward Southeast Asia; border communities; insurgency/drug networks; Bay of Bengal access. · Conflict can disrupt projects, displace people and increase illicit flows. Secure access, deliver humanitarian help and coordinate policy with border states."
+      },
+      {
+        "label": "Core point 3",
+        "text": "• Connectivity: transit and ports can reduce isolation of the Northeast, provided customs and logistics function."
+      },
+      {
+        "label": "Core point 4",
+        "text": "• Federal dimension: rivers and border concerns require coordination with Indian states and local communities."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-nepal-bhutan": {
+    "keywords": [
+      "Points that make this an analytical answer",
+      "Nepal & Bhutan",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Hydropower + transmission → Cross-border electricity trade → Revenue + cleaner power → Mutual stake in stability",
+    "points": [
+      {
+        "label": "Nepal",
+        "text": "Open-border social ties; trade/transit; Himalayan ecology; hydropower; flood management. · Boundary disputes, uneven benefits and political mistrust. Use regular dialogue, reliable transit, transparent power agreements and local benefit-sharing."
+      },
+      {
+        "label": "Bhutan",
+        "text": "Trusted development partnership; hydropower; Himalayan security; ecological links. · Debt/revenue concentration, project delays and sensitive regional security. Diversify cooperation and respect Bhutan's sovereign decisions."
+      },
+      {
+        "label": "Core point 3",
+        "text": "• Interdependence: Nepal/Bhutan can earn revenue while India gains flexible clean electricity; the benefit depends on transmission and predictable purchasing arrangements."
+      },
+      {
+        "label": "Core point 4",
+        "text": "• Beyond energy: storage, floods, sediment, ecology and downstream livelihoods make river cooperation wider than electricity sales."
+      }
+    ],
+    "recall": [
+      "Recall: Why can a profitable hydropower project still become a diplomatic problem? Answer through distribution, ecology and sovereignty.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-sri-lanka-maldives": {
+    "keywords": [
+      "Sri Lanka: the 2022 crisis as an example",
+      "Maldives: answer all layers of the 2024 PYQ",
+      "Sri Lanka & Maldives",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Location near sea lanes → Trade + energy exposure → Security / external competition → Partnership + regional stability",
+    "points": [
+      {
+        "label": "Sri Lanka",
+        "text": "Shipping location; trade and investment; Tamil connections; fisheries; Chinese economic presence; crisis assistance. · Debt problems have multiple causes. Support recovery and local welfare; discuss fisheries and minority concerns through dialogue."
+      },
+      {
+        "label": "Maldives",
+        "text": "Location near Indian Ocean routes; maritime awareness; coast guard/rescue; tourism; infrastructure; climate and debt vulnerability. · Domestic politics and sovereignty shape cooperation. Development credibility and public trust are as important as security arrangements."
+      },
+      {
+        "label": "Core point 3",
+        "text": "India provided assistance close to USD 4 billion in 2022. Use the dated amount to show crisis response through finance and essential supplies. Then explain the next stage: recovery, debt sustainability, investment and people-centred projects."
+      },
+      {
+        "label": "Core point 4",
+        "text": "• Trade/energy: maritime disruption can affect Indian imports and exports."
+      }
+    ],
+    "recall": [
+      "Recall: Give two reasons a small island state has strategic importance beyond its land area.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-united-states": {
+    "keywords": [
+      "How to write the qualification",
+      "United States",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Common strategic concerns → Cooperation + technology access → Wider Indian capabilities → More room for independent choices",
+    "points": [
+      {
+        "label": "Security",
+        "text": "Maritime stability; defence technology; exercises; a favourable Indo-Pacific balance. · India protects autonomy and has other defence partnerships."
+      },
+      {
+        "label": "Technology",
+        "text": "Semiconductors, AI, space, research and secure supply chains. · Export controls, intellectual property and unequal industrial capacity."
+      },
+      {
+        "label": "Economy",
+        "text": "Markets, services, investment, energy and manufacturing diversification. · Tariffs, domestic regulation, subsidies and migration policies."
+      },
+      {
+        "label": "People",
+        "text": "Students, professionals, research and business networks. · Visa uncertainty, worker welfare and political controversy."
+      }
+    ],
+    "recall": [
+      "Recall: Name one domain where cooperation widens autonomy and one where it could create a new dependence.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-russia": {
+    "keywords": [
+      "A compact relationship note",
+      "Russia & strategic autonomy",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Supplier concentration → Disruption risk → Diversification + domestic capability → Stronger strategic autonomy",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "• Established value: defence cooperation, civil nuclear energy, energy trade and diplomatic familiarity."
+      },
+      {
+        "label": "Core point 2",
+        "text": "• Present pressure: the Ukraine war and sanctions complicate payments, logistics, technology access and relations with Western partners."
+      },
+      {
+        "label": "Core point 3",
+        "text": "• Structural risk: excessive concentration in any supplier exposes India to disruption and weakens bargaining."
+      },
+      {
+        "label": "Core point 4",
+        "text": "• Wider setting: Russia-China convergence changes India's regional calculations; India should assess it without treating Russia as simply controlled by China."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-europe-japan-australia": {
+    "keywords": [
+      "Japan: why the question returned in 2019",
+      "Europe, Japan & Australia",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "EU",
+        "text": "Market access; clean technology; standards and regulatory influence. · CBAM and compliance costs affect exporters. Negotiations on the FTA concluded in January 2026; this alone does not mean it is in force."
+      },
+      {
+        "label": "France",
+        "text": "Defence co-development; space/civil nuclear cooperation; Indian Ocean cooperation. · Translate strategic trust into technology and industrial capability. Partnership was elevated in February 2026."
+      },
+      {
+        "label": "Germany / UK",
+        "text": "Advanced industry/skills and investment; services/research/people links respectively. · Distinguish national partnerships from EU institutions. Check any agreement's current legal status before citing."
+      },
+      {
+        "label": "Japan",
+        "text": "Quality infrastructure; industrial investment/skills; maritime and supply-chain cooperation. · Slow execution, market-access barriers and business adjustment can limit economic potential."
+      }
+    ],
+    "recall": [
+      "Recall: How can an environmental regulation become a foreign-policy issue? Explain the EU example through trade costs and technology.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-indian-ocean": {
+    "keywords": [
+      "India's toolkit",
+      "Indian Ocean & maritime policy",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "1 Hormuz; 2 Bab el-Mandeb; 3 Malacca",
+        "text": "Chokepoints → disruption → freight/energy exposure → route protection and diversification."
+      },
+      {
+        "label": "4 Maldives; 5 Sri Lanka; 6 Andaman & Nicobar",
+        "text": "Island geography → monitoring, rescue and communication → maritime partnerships."
+      },
+      {
+        "label": "7 Gwadar; 8 Hambantota; 9 Djibouti",
+        "text": "Assess commercial terms, possible dual use and actual access separately. Djibouti hosts a Chinese military support base; do not extend that claim automatically to all ports."
+      },
+      {
+        "label": "Core point 4",
+        "text": "Awareness: IFC-IOR and trusted information sharing. Capacity: coast-guard training, patrol capability and hydrography. Public goods: disaster relief, search and rescue and environmental protection. Diplomacy: IORA, island partnerships and coordinated regional projects."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-act-east": {
+    "keywords": [
+      "Constraints and response",
+      "Act East, ASEAN & the Indo-Pacific",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "Economic",
+        "text": "Better ports, roads and customs can connect the Northeast to Southeast Asian production networks; infrastructure alone is insufficient."
+      },
+      {
+        "label": "Strategic",
+        "text": "ASEAN-led forums let India engage multiple partners and support a regional order in which smaller states retain choices."
+      },
+      {
+        "label": "Maritime",
+        "text": "Navigation and lawful resource use matter to trade. Partnerships should also offer rescue, health and climate benefits."
+      },
+      {
+        "label": "Social",
+        "text": "Buddhist/cultural links, education and diaspora ties deepen familiarity but need contemporary economic substance."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-west-asia": {
+    "keywords": [
+      "How to generate a balanced response",
+      "West Asia: energy, people & connectivity",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "Gulf states",
+        "text": "Energy, investment, labour welfare, food cooperation and logistics. Build long-term clean-energy and industrial ties alongside hydrocarbons."
+      },
+      {
+        "label": "Israel",
+        "text": "Defence, agricultural/water technology and innovation. Cooperation does not require abandoning support for Palestinian rights or a negotiated settlement."
+      },
+      {
+        "label": "Iran",
+        "text": "Geography, Chabahar and access toward Afghanistan/Central Asia. Sanctions and regional tensions complicate implementation."
+      },
+      {
+        "label": "Red Sea / Gulf sea lanes",
+        "text": "Conflict can raise freight, insurance and energy uncertainty; monitor transmission into India rather than simply recounting battles."
+      }
+    ],
+    "recall": [
+      "Recall: Why does India need separate relationships with actors that disagree strongly with each other? Answer using the four interests above.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-central-asia": {
+    "keywords": [
+      "Five countries to locate",
+      "Central Asia: resources & access",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "Security",
+        "text": "Afghanistan-linked instability and extremist networks create shared concerns; SCO offers a forum, with limits."
+      },
+      {
+        "label": "Resources",
+        "text": "Energy and minerals offer diversification, but transport and commercial viability determine access."
+      },
+      {
+        "label": "Connectivity",
+        "text": "Chabahar, INSTC and the Ashgabat Agreement provide different, partly overlapping routes/frameworks; they are not interchangeable."
+      },
+      {
+        "label": "Development",
+        "text": "Skills, digital services, health, pharmaceuticals and business links can work alongside large corridors."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-africa-global-south": {
+    "keywords": [
+      "Africa digital partnership: the 2025 demand",
+      "Africa, Latin America & Pacific islands",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Co-design + training → Local institutional capability → Adaptation + maintenance → Durable, respectful partnership",
+    "points": [
+      {
+        "label": "Africa",
+        "text": "Education/health; ITEC training; digital systems; energy and minerals; trade; maritime links; representation in global forums. · Africa is diverse. Co-design, local jobs, maintenance and debt sustainability determine credibility."
+      },
+      {
+        "label": "Latin America",
+        "text": "Lithium/copper and other resources; food/energy links; medicines; market diversification; Brazil and wider South-South cooperation. · Distance, language, logistics, processing concentration and ecological/local consent issues matter."
+      },
+      {
+        "label": "Pacific islands",
+        "text": "Climate adaptation; resilient infrastructure; health, training and development partnership through FIPIC. · Small land area does not mean small maritime stakes. Avoid reducing partners to sites of great-power rivalry."
+      },
+      {
+        "label": "Core point 4",
+        "text": "• Mutual respect: choose priorities with the partner; protect data and local decision-making."
+      }
+    ],
+    "recall": [
+      "Recall: Give three differences between an extractive resource relationship and a development partnership.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-quad": {
+    "keywords": [
+      "Critical assessment of IPMDA",
+      "Quad, AUKUS, IPMDA & IORA",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Sensors + information fusion → Shared maritime picture → National enforcement / rescue → Safer seas + livelihoods",
+    "points": [
+      {
+        "label": "Quad",
+        "text": "India, US, Japan, Australia; consultation and practical Indo-Pacific cooperation, including maritime awareness and public goods. · India is a member. Quad is neither a formal military alliance nor a trade bloc."
+      },
+      {
+        "label": "AUKUS",
+        "text": "Australia, UK, US; security/defence-technology partnership including conventionally armed nuclear-powered submarines. · India is not a member. Distinct mandate; cannot simply replace Quad's wider role."
+      },
+      {
+        "label": "IPMDA",
+        "text": "Quad initiative launched in 2022 to improve near-real-time maritime information for regional partners. · Information helps detect suspicious activity; action still requires local law, vessels, training and trust."
+      },
+      {
+        "label": "IORA",
+        "text": "Indian Ocean Rim Association; regional cooperation across the Indian Ocean. · Useful inclusive forum; diverse interests and limited enforcement constrain delivery."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-brics-sco-g20": {
+    "keywords": [
+      "How BRICS can act as an alternative",
+      "BRICS, SCO & G20",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "BRICS",
+        "text": "South-South coordination; development finance through NDB; arguments for representation in global institutions; diversified partnerships. · Members differ on security, trade and governance. Expansion widens reach but can complicate consensus."
+      },
+      {
+        "label": "SCO",
+        "text": "Eurasian dialogue; regional security and counter-terror cooperation; engagement with Central Asia. · India-China/Pakistan tensions and competing priorities restrict common action. Membership does not settle bilateral disputes."
+      },
+      {
+        "label": "G20",
+        "text": "Coordination among major economies on growth, finance, development, digital and climate issues. · It is an informal forum; implementation depends on members and other institutions. Major-power rivalry complicates consensus."
+      },
+      {
+        "label": "Core point 4",
+        "text": "• Voice: coordinate demands for a more representative international order."
+      }
+    ],
+    "recall": [
+      "Recall: Why might a larger grouping be more representative but less effective? Explain through bargaining and implementation.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-saarc-bimstec": {
+    "keywords": [
+      "Why BIMSTEC is not merely a renamed SAARC",
+      "Minilateral cooperation: when a smaller group helps",
+      "SAARC, BIMSTEC & smaller coalitions",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Specific shared problem → Few willing partners → Clear project + finance → Visible result",
+    "points": [
+      {
+        "label": "Geography / membership",
+        "text": "South Asia; includes Pakistan and Afghanistan. · Bay of Bengal bridge: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand."
+      },
+      {
+        "label": "Main opportunity",
+        "text": "Broad South Asian cooperation and social/economic links. · Links Neighbourhood First with Act East; connectivity, energy, security and development."
+      },
+      {
+        "label": "Main constraint",
+        "text": "Bilateral security tensions and weak political trust. · Project delays, Myanmar instability, capacity gaps and unfinished integration."
+      },
+      {
+        "label": "India's approach",
+        "text": "Preserve useful technical/people links where possible. · Prioritise deliverable projects and regulatory coordination."
+      }
+    ],
+    "recall": [
+      "Recall: Give two reasons BIMSTEC could progress despite SAARC's difficulties, and two reasons it might still struggle.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-united-nations": {
+    "keywords": [
+      "Why reform remains difficult",
+      "United Nations & reform",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "General Assembly",
+        "text": "Broad representation, discussion and recommendations. · A broad consensus can create legitimacy; most recommendations do not enforce themselves."
+      },
+      {
+        "label": "Security Council",
+        "text": "Primary responsibility for international peace and security; sanctions and other Charter tools. · 15 members: 5 permanent and 10 elected. Veto politics constrains many substantive decisions."
+      },
+      {
+        "label": "ECOSOC",
+        "text": "Coordinates economic/social work and links commissions, agencies and development discussions. · Examples: Commission on the Status of Women and Statistical Commission. Agencies are not all ECOSOC commissions."
+      },
+      {
+        "label": "ICJ / ICC",
+        "text": "ICJ: UN principal judicial organ, state disputes and advisory opinions. ICC: individual criminal responsibility under a separate treaty. · They differ in mandate, membership/jurisdiction and institutional position."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-trade-finance": {
+    "keywords": [
+      "WTO answer: retain four themes",
+      "WTO, IMF, World Bank, NDB & AIIB",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "WTO",
+        "text": "Trade agreements, negotiations, monitoring and dispute settlement. · Predictable access plus space for food security/development; address distorted subsidies and impaired appeals."
+      },
+      {
+        "label": "IMF",
+        "text": "Macroeconomic surveillance, balance-of-payments finance and capacity development. · Crisis stability, fair quotas/voice and adjustment that protects vulnerable people."
+      },
+      {
+        "label": "World Bank",
+        "text": "Long-term development finance, knowledge and poverty reduction. · Infrastructure/human development; safeguards, debt sustainability and adequate concessional finance."
+      },
+      {
+        "label": "NDB",
+        "text": "Development bank created by BRICS countries; infrastructure and sustainable development. · Additional finance and greater borrower options; judge project quality and governance."
+      }
+    ],
+    "recall": [
+      "Recall: Why does a temporary external-payments crisis need a different institution from a long-term drinking-water project?",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-specialised-agencies": {
+    "keywords": [
+      "Three distinctions UPSC can test",
+      "WHO, UNESCO, IMO & counter-terror bodies",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "WHO",
+        "text": "Health guidance, international coordination and the International Health Regulations. · Its effectiveness depends on timely state reporting, funding, trust and national health capacity; it is not a world health police force."
+      },
+      {
+        "label": "UNESCO",
+        "text": "Education, science, culture and communication; heritage conventions and cooperation. · Funding and political disputes affect work. Evaluate educational/cultural outcomes, not only controversies."
+      },
+      {
+        "label": "IMO",
+        "text": "International shipping standards: SOLAS (safety), MARPOL (pollution), STCW (seafarer training). · Rules need implementation by flag/port/coastal states; IMO does not itself patrol every sea lane."
+      },
+      {
+        "label": "CTC / CTED",
+        "text": "CTC monitors counter-terror obligations; CTED assesses gaps and facilitates assistance. · Technical work helps capacity; selective cooperation, politics and uneven enforcement limit results."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-diaspora": {
+    "keywords": [
+      "Why the influence is not automatic",
+      "Diaspora: networks, welfare & influence",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Heritage + social ties → Trust + professional networks → Trade / knowledge / advocacy → Potential strategic influence",
+    "points": [
+      {
+        "label": "Economic",
+        "text": "Remittances support households and external receipts; networks connect firms, markets and investors. · Gulf labour networks; professionals and entrepreneurs in advanced economies."
+      },
+      {
+        "label": "Knowledge",
+        "text": "Research links, mentoring, skills and venture capital connect Indian institutions to global ecosystems. · University collaboration; technology/startup networks."
+      },
+      {
+        "label": "Cultural",
+        "text": "Language, cinema, food and community institutions can build familiarity and attraction. · Long-established communities in Southeast Asia and newer professional migration."
+      },
+      {
+        "label": "Political",
+        "text": "Civic participation and advocacy can improve access and visibility for shared concerns. · Elected representatives and community organisations, subject to host-country democratic processes."
+      }
+    ],
+    "recall": [
+      "Recall: Explain one pathway from culture to economic influence, then explain why that pathway might fail.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-connectivity": {
+    "keywords": [
+      "Connectivity & economic corridors",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "INSTC",
+        "text": "India-Iran-Eurasia/Russia through a multimodal network with several possible branches. · Missing links, customs, sanctions/payments and cargo economics."
+      },
+      {
+        "label": "Chabahar",
+        "text": "An Iranian port providing an access option toward Afghanistan and Central Asia. · Terminal operations, inland links, finance and political risks."
+      },
+      {
+        "label": "IMEC",
+        "text": "Proposed India-Gulf-Europe ship/rail and associated connectivity. · Regional stability, missing rail sections, customs and financing. It is a planned framework."
+      },
+      {
+        "label": "BRI / CPEC",
+        "text": "Chinese infrastructure/connectivity initiative; CPEC crosses territory claimed by India. · Sovereignty, contract terms, actual access, debt/revenue viability and local agency."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-geoeconomics": {
+    "keywords": [
+      "Sovereign nationalism: answer the 2025 question",
+      "Geoeconomics, technology & supply chains",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "External restriction → Price / access / investment channel → Domestic sector impact → Targeted diplomatic + economic response",
+    "points": [
+      {
+        "label": "Tariffs and industrial subsidies",
+        "text": "Change relative costs, export access and investment location. · Negotiate access; improve competitiveness; help vulnerable sectors adjust."
+      },
+      {
+        "label": "Friend-shoring / China+1",
+        "text": "Can redirect production toward India, but imported-input dependence may persist. · Build logistics, reliable power, skills and supplier networks."
+      },
+      {
+        "label": "Technology controls",
+        "text": "Restrict access to chips, equipment, software or dual-use technology. · Diversify partnerships; support research, absorption and domestic capability."
+      },
+      {
+        "label": "Critical-mineral concentration",
+        "text": "A producer/miner may differ from the refining or technology controller. · Diversify mining and processing, recycle, substitute and protect local consent."
+      }
+    ],
+    "recall": [
+      "Recall: Why might a factory moving to India fail to reduce India's strategic dependence? Think of components, machinery and know-how.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-climate-energy": {
+    "keywords": [
+      "A compact policy direction",
+      "Energy, climate & the Global South",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Climate vulnerability + costly capital → Slower adaptation / transition → Development and debt pressure → Fair finance + usable technology",
+    "points": [
+      {
+        "label": "Traditional energy security",
+        "text": "Diversify suppliers and routes; build storage; improve efficiency; protect sea lanes. Affordable reliable energy remains a development need."
+      },
+      {
+        "label": "Energy transition",
+        "text": "Renewables reduce some fuel exposure but create demand for minerals, batteries, grids and technology. Manage new concentrations of dependence."
+      },
+      {
+        "label": "Climate equity",
+        "text": "Historical responsibility, different capacities and development needs support fair finance and technology access alongside domestic action."
+      },
+      {
+        "label": "Global South voice",
+        "text": "Debt, food, health, digital access and adaptation link many developing countries; their interests are not identical."
+      }
+    ],
+    "recall": [
+      "Recall: Give one reason climate ambition and energy security reinforce each other, and one reason they can create a trade-off.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-conflict-security": {
+    "keywords": [
+      "CTC effectiveness: four evaluation criteria",
+      "Conflict, terrorism & non-traditional security",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Financing / safe haven → Operational capability → Cross-border violence → Need coordinated disruption",
+    "points": [
+      {
+        "label": "Armed conflict",
+        "text": "Energy/food prices, shipping, defence supplies, citizens abroad and diplomatic pressure. · Diplomatic channels; civilian assistance; consular readiness; diversified supplies."
+      },
+      {
+        "label": "Cross-border terrorism",
+        "text": "Loss of life, escalation, trust deficit and reduced regional cooperation. · Intelligence/law-enforcement cooperation; finance controls; credible accountability; crisis communication."
+      },
+      {
+        "label": "Cyber / digital threats",
+        "text": "Disruption to financial systems, public services and strategic infrastructure. · Resilient systems, trusted standards, incident sharing and trained institutions."
+      },
+      {
+        "label": "Water / climate risks",
+        "text": "Floods, livelihood stress, displacement and interstate distrust. · Data sharing, early warning, ecological safeguards and negotiated arrangements."
+      }
+    ],
+    "recall": [
+      "Recall: Take one conflict headline and trace three separate effects on India before suggesting responses.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-model-ipmda-brics": {
+    "keywords": [
+      "BRICS demand: explain its counterweight role without exaggeration",
+      "Model answers: IPMDA & BRICS",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "IPMDA demand: explain the link, then critically assess it."
+      },
+      {
+        "label": "Core point 2",
+        "text": "IPMDA connects the Quad's resources with India's cooperative maritime vision by improving partners' awareness of activity at sea."
+      },
+      {
+        "label": "Core point 3",
+        "text": "The bridge: First, shared maritime information can help coastal states identify suspicious movements, illegal fishing and trafficking. Second, this supports safer sea lanes and coastal livelihoods, making regional security a public good. Third, information-centre cooperation and MAITRI training can strengthen local institutions rather than requiring external deployment."
+      },
+      {
+        "label": "Core point 4",
+        "text": "The limits: Information alone cannot stop a vessel: partners need patrol capacity, legal authority and trained personnel. Data quality, confidentiality and willingness to share also affect results. Smaller states may hesitate if the initiative appears to require choosing sides."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-model-bri": {
+    "keywords": [
+      "Model answer: BRI & South Asia",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Infrastructure + finance → Access / dependence / alternatives → Indian security + influence → Deterrence + credible delivery",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "BRI has expanded China's infrastructure and financial presence in South Asia, increasing strategic competition around India. However, outcomes depend on project terms and host-country choices."
+      },
+      {
+        "label": "Core point 2",
+        "text": "1. Sovereignty: CPEC passes through territory claimed by India, creating a direct objection to the initiative."
+      },
+      {
+        "label": "Core point 3",
+        "text": "2. Maritime exposure: Chinese involvement in ports such as Gwadar and Hambantota raises concerns about surveillance and possible dual use near important routes. Commercial involvement should not automatically be equated with a military base."
+      },
+      {
+        "label": "Core point 4",
+        "text": "3. Strategic pressure: transport, energy and digital infrastructure can strengthen China's regional access and create vulnerabilities during a crisis."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-model-diaspora": {
+    "keywords": [
+      "Model answer: diaspora",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "Community ties → Trust + networks → Economic / knowledge links → Influence, subject to choice",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "India's diaspora connects culture with economic and knowledge networks. These links can strengthen influence, but their strategic value is not automatic."
+      },
+      {
+        "label": "Core point 2",
+        "text": "1. Economic links: India received about USD 138 billion in remittances in 2024 (World Bank). Entrepreneurs connect Indian firms with investment, markets and business advice."
+      },
+      {
+        "label": "Core point 3",
+        "text": "2. Knowledge networks: professionals and researchers can support university cooperation, mentoring, innovation and access to skills."
+      },
+      {
+        "label": "Core point 4",
+        "text": "3. Cultural familiarity: community institutions, languages, cinema and festivals create everyday contact, helping build trust and interest in India."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-model-un": {
+    "keywords": [
+      "Model answer: UN reform",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "East-West confrontation obstructs UN reform by making institutional change part of strategic rivalry. Yet the stalemate also reflects representation disputes and difficult legal requirements."
+      },
+      {
+        "label": "Core point 2",
+        "text": "How major-power confrontation blocks reform"
+      },
+      {
+        "label": "Core point 3",
+        "text": "First, permanent members are reluctant to dilute privileges or support changes that may favour rivals. Second, disputes over Ukraine and sanctions undermine trust needed for institutional bargains. Third, competing ideas of sovereignty, intervention and international order make agreement on the Council's future role difficult. Strategic competition can turn even procedural questions into bargaining instruments."
+      },
+      {
+        "label": "Core point 4",
+        "text": "Why this is not the whole explanation"
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-model-africa": {
+    "keywords": [
+      "Breakdown of the question",
+      "Apply Framework 2 to a different issue: CBAM",
+      "Model answer: India-Africa digital ties",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "EU carbon-border rules → Emissions reporting / compliance → Indian exporter costs → Cleaner production + negotiation",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "India-Africa digital cooperation can build a partnership when systems develop local capability and respond to priorities identified by African partners."
+      },
+      {
+        "label": "Core point 2",
+        "text": "Mutual respect: co-design lets countries retain ownership over public services and data, rather than importing a fixed model. Systems must reflect languages, connectivity and administrative needs."
+      },
+      {
+        "label": "Core point 3",
+        "text": "Co-development: training and adaptation enable universities, health agencies and domestic firms to operate and improve technology. The e-VidyaBharati/e-ArogyaBharati initiative provides an education-and-health cooperation example."
+      },
+      {
+        "label": "Core point 4",
+        "text": "Institutional ties: collaboration among public agencies and educational institutions can outlast a single equipment contract and support knowledge exchange."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-visual-library": {
+    "keywords": [
+      "1. External event → Indian impact",
+      "2. Institution performance",
+      "3. Strategic autonomy",
+      "4. A comparison saves space",
+      "Exam visual library",
+      "India's interests",
+      "Mechanism",
+      "Example"
+    ],
+    "chain": "Foreign decision / shock → Transmission channel → Effect on India → Matched response",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "Use for sanctions, tariffs, wars, migration rules or shipping disruption. Label the channel: price, access, finance, technology or people."
+      },
+      {
+        "label": "Core point 2",
+        "text": "Use for WHO, IMO, CTC or WTO. Put the actual convention, assessment or financing instrument in box 2."
+      },
+      {
+        "label": "Core point 3",
+        "text": "Draw a 3-row table using the same criteria: purpose / mechanism / limitation. Useful for SAARC-BIMSTEC, Quad-AUKUS and IMF-World Bank."
+      },
+      {
+        "label": "Core point 4",
+        "text": "Mark only 3-5 locations and one relationship. Example: port → sea lane → Indian trade interest. A large map with no analytical labels consumes answer space. Aim to reproduce it in 30-45 seconds."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-facts-updates": {
+    "keywords": [
+      "Minimum facts & dated updates",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "UNSC: 15 members; 5 permanent",
+        "text": "Representation and veto debate. · Not all UN bodies have the same powers."
+      },
+      {
+        "label": "Article 108: two-thirds + ratification, including P5",
+        "text": "Why UN reform is hard. · A General Assembly majority alone does not amend the Charter."
+      },
+      {
+        "label": "India: about USD 138 bn remittances in 2024; World Bank WDI discussion, Aug 2026",
+        "text": "Diaspora's economic channel. · Revised calendar-year series, not an RBI fiscal-year total."
+      },
+      {
+        "label": "India: close to USD 4 bn assistance to Sri Lanka in 2022",
+        "text": "First response / neighbourhood trust. · A dated crisis response, not a current annual-aid figure."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-revision-plan": {
+    "keywords": [
+      "21-day IR revision cycle",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "Use about 75-90 minutes a day: learn/revise for 30 minutes, retrieve for 15, draw for 5, and outline or write for 25-40. Adjust volume to your class subject and test schedule."
+      },
+      {
+        "label": "1-3",
+        "text": "Frameworks; China; Pakistan/Afghanistan. · One closed-book recall card each day + one 150-word answer on day 3."
+      },
+      {
+        "label": "4-6",
+        "text": "Bangladesh/Myanmar; Nepal/Bhutan; Sri Lanka/Maldives. · A neighbourhood map + 3 interests, 3 problems and 3 responses per pair."
+      },
+      {
+        "label": "7",
+        "text": "Neighbourhood retrieval and writing. · Two unseen outlines + one 250-word answer. Correct the weakest demand."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-practice": {
+    "keywords": [
+      "A compact self-evaluation score, out of 10",
+      "Practice prompts & potential extensions",
+      "India's interests",
+      "Mechanism",
+      "Example",
+      "Limitation"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "1. Can India's neighbourhood policy succeed through infrastructure finance alone? (150 words)",
+        "text": "Delivery benefits → trust/sovereignty → institutions/local agency."
+      },
+      {
+        "label": "2. Maritime information-sharing is useful only when partners can act on it. Discuss. (150)",
+        "text": "Awareness → enforcement capacity → consent and safeguards."
+      },
+      {
+        "label": "3. Critical-mineral security is as much a processing problem as a mining problem. Examine for India. (250)",
+        "text": "Value chain → concentration → environmental/local consent → diversification."
+      },
+      {
+        "label": "4. Expanding BRICS strengthens representation while complicating effectiveness. Discuss. (150)",
+        "text": "Voice/finance → diverse interests → design and delivery."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  },
+  "ir-sources": {
+    "keywords": [
+      "PYQs",
+      "Topper copies",
+      "Content and current affairs",
+      "Maps",
+      "Sources & verification notes",
+      "India's interests",
+      "Mechanism",
+      "Example"
+    ],
+    "chain": "India's interest → instrument / partnership → practical benefit → constraint → matched response",
+    "points": [
+      {
+        "label": "Core point 1",
+        "text": "The demand map contains 61 core IR questions from 2013-2026: 8 in 2013, 5 in 2014 and 4 in each year from 2015 onward. It excludes mainly domestic-governance and comparative-constitution questions. This is a stated classification, not an official UPSC topic count."
+      },
+      {
+        "label": "Core point 2",
+        "text": "The official 2025 and 2026 papers were read directly, including the scanned English text. Earlier questions were cross-checked using yearly transcriptions and a topic index, with official papers consulted where accessible. Some older official PDFs could not be retrieved in this session. The table therefore uses paraphrased demands and provides source routes for checking exact wording."
+      },
+      {
+        "label": "Core point 3",
+        "text": "One indexing error was corrected: the IMF/World Bank question in 2013 is Q25, not Q20. The 2025 energy question is framed around coming years; no unsupported fixed 15-year period is imposed."
+      },
+      {
+        "label": "Core point 4",
+        "text": "Two ForumIAS MGP GS II coaching practice copies were downloaded and visually inspected. Observations refer to the specific question/page ranges listed earlier. They are not actual UPSC evaluated answer scripts. No inference about a guaranteed score follows from their layout."
+      }
+    ],
+    "recall": [
+      "Explain India's interests, the mechanism, an example, one limitation and a practical response for this theme.",
+      "Give one dated example and one important qualification.",
+      "Draw a compact cause-effect chain or location sketch."
+    ]
+  }
+}

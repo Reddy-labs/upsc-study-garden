@@ -89,3 +89,32 @@ const savedEssay={id:'essay-annotation-test',kind:'annotation',payload:{id:'essa
 await store.saveRecord(savedEssay);assert.equal((await store.readRecords())[0].payload.blockId,'essay-paragraph-01');await store.deleteRecord(savedEssay.id);
 console.log('PASS: 19 honest day slots, 9 complete imported lessons, unique annotation anchors, full essays, concepts, sources and lesson-specific writing prompts.');
 console.log('PASS: Essay classroom server rendering, missing-source labels, quick revision, short notes and essay highlight storage.');
+
+const ir=load('lib/ir-lessons.ts');const irQuestions=JSON.parse(readFileSync('data/ir-pyqs.json'));
+assert.equal(ir.irCourse.themes.length,8);assert.equal(ir.irTopics.length,39);assert.equal(irQuestions.length,61);
+const completeIds=new Set([...topics,...course.essayTopics,...ir.irTopics].map(t=>t.id));assert.equal(completeIds.size,89);
+for(const theme of ir.irCourse.themes)assert(ir.irTopics.some(t=>t.theme===theme.id));
+const maps=new Set(),visualTypes=new Set();
+for(const topic of ir.irTopics){
+ assert.equal(topic.paper,'GS2');assert(topic.id.startsWith('ir-'));assert.equal(ir.irLessonForTopic(topic.id),topic);assert(ir.irThemeForTopic(topic.id));
+ assert.equal(new Set(topic.blocks.map(b=>b.id)).size,topic.blocks.length);assert(topic.blocks.every(b=>b.text.trim()));
+ assert(topic.guidePages.every(page=>page>=1&&page<=55));assert(topic.recallPrompt.length>20);
+ assert(topic.sourceUrl.startsWith('/ir/'));for(const source of topic.sources)assert.equal(new URL(source.url).protocol,'https:');
+ assert(ir.irRevisionCards[topic.id]);assert.equal(tools.quickBlocks(topic).length,7);assert(tools.shortNoteText(topic,[]).includes(ir.irRevisionCards[topic.id].chain));
+ for(const block of topic.blocks){if(!block.visual)continue;const v=block.visual;visualTypes.add(v.type);
+  if(v.type==='map'){maps.add(v.src);assert(existsSync('public'+v.src));assert(v.alt.length>20);}
+  if(v.type==='table'){assert(v.headers.length>=2);assert(v.rows.every(row=>row.length===v.headers.length));}
+  if(v.type==='flow')assert(v.steps.length>=2);
+ }
+}
+assert.equal(maps.size,4);assert.deepEqual([...visualTypes].sort(),['flow','map','mindmap','table']);
+assert(existsSync('public'+ir.irCourse.pdf));assert(readFileSync('public'+ir.irCourse.pdf).subarray(0,5).toString()==='%PDF-');
+assert.equal(new Set(irQuestions.map(p=>p.id)).size,61);assert(new Set(irQuestions.map(tools.pyqTheme)).size>4);assert.deepEqual([...new Set(irQuestions.map(p=>p.year))].sort(),Array.from({length:14},(_,i)=>2013+i));
+for(const p of irQuestions){assert.equal(p.status,'paraphrase');assert.equal(p.paper,'GS2');assert(p.demand.length>15);assert(p.route.length>30);assert(p.topics.length);for(const id of p.topics)assert(ir.irLessonForTopic(id));assert(ir.irLessonForTopic(p.sourceTopic));assert.equal(new URL(p.sourceUrl).protocol,'https:');assert(p.verification.length>30);}
+const irUi=load('app/international-relations.tsx');const irHtml=renderToStaticMarkup(React.createElement(irUi.InternationalRelations,{onOpen:()=>{},onPyqs:()=>{},onBack:()=>{}}));
+assert.equal((irHtml.match(/class="ir-theme-section"/g)||[]).length,8);assert.equal((irHtml.match(/class="topic-card"/g)||[]).length,39);assert(irHtml.includes(ir.irCourse.pdf));assert(irHtml.includes('coaching practice copies'));
+for(const type of visualTypes){const block=ir.irTopics.flatMap(t=>t.blocks).find(b=>b.visual?.type===type);const html=renderToStaticMarkup(React.createElement(irUi.IRVisualBlock,{visual:block.visual,text:block.text,hasSavedWork:true},React.createElement('p',{'data-block':block.id},block.text)));assert(html.includes('open=""'));assert(html.includes('data-block="'+block.id+'"'));if(type==='map')assert(html.includes(block.visual.src));if(type==='table')assert(html.includes('<thead>'));}
+const irTopic=ir.irTopics.find(t=>t.blocks.some(b=>b.visual));const irBlock=irTopic.blocks.find(b=>b.visual);const irAnnotation={...savedEssay,id:'ir-annotation-test',payload:{...savedEssay.payload,id:'ir-annotation-test',topicId:irTopic.id,blockId:irBlock.id,quote:irBlock.text.slice(0,25)}};
+await store.saveRecord(irAnnotation);const irBackup=JSON.parse(JSON.stringify(await store.readRecords()));assert.equal(irBackup[0].payload.blockId,irBlock.id);await store.deleteRecord(irAnnotation.id);await store.saveRecord(irBackup[0]);assert.equal((await store.readRecords())[0].payload.topicId,irTopic.id);await store.deleteRecord(irAnnotation.id);
+console.log('PASS: IR hierarchy, 39 stable lessons/revision cards, 61 sourced question links, four map assets, PDF and all visual types.');
+console.log('PASS: IR hub and accessible visual rendering, short notes, annotation storage and backup round-trip.');
