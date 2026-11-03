@@ -2,6 +2,7 @@
 import {useEffect,useMemo,useRef,useState} from 'react';
 import type {ReactNode} from 'react';
 import {ArrowLeft,ArrowUpRight,BookOpen,Bookmark,Calendar,Check,ChevronRight,Clock,Download,Highlighter,Home,Leaf,Menu,PenLine,Plus,RotateCcw,Search,Tag,Trash2,X} from 'lucide-react';
+import PwaControls from './pwa-controls';
 import baseData from '@/data/topics.json';
 import {readRecords,saveRecord,deleteRecord} from '@/lib/client-records';
 import {recordSchema} from '@/lib/study-record';
@@ -91,7 +92,7 @@ export default function StudyApp(){
  <div className="sidebar-caption subject-caption">EXPLORE BY PAPER</div>
  <div className="paper-nav">{['GS1','GS2','GS3','GS4'].map((p,i)=><button key={p} onClick={()=>navigate('subjects',p)}><span className={'paper-dot dot-'+i}/><span>{p.slice(0,2)} {p.slice(2)}</span><small>{topics.filter(t=>t.paper===p&&!t.id.endsWith('sources')).length||'+'}</small></button>)}</div>
  <button className={view==='ir'||(active&&irLessonForTopic(active.id))?'ir-sidebar-link selected':'ir-sidebar-link'} onClick={()=>navigate('ir','GS2')}><ChevronRight size={13}/>International Relations</button>
- <div className="sidebar-bottom"><div className="small-plant"><Leaf size={23}/><span>A little every day.<br/><b>A lot over time.</b></span></div><button className="export" disabled={!loaded} onClick={exportData}><Download size={15}/> Export my study data</button><button className="export" disabled={!loaded||busy} onClick={()=>fileRef.current?.click()}>Restore a backup</button><input type="file" accept="application/json" ref={fileRef} hidden onChange={e=>{const f=e.target.files?.[0];if(f)importData(f);e.target.value='';}}/></div>
+ <div className="sidebar-bottom"><PwaControls/><div className="small-plant"><Leaf size={23}/><span>A little every day.<br/><b>A lot over time.</b></span></div><button className="export" disabled={!loaded} onClick={exportData}><Download size={15}/> Export my study data</button><button className="export" disabled={!loaded||busy} onClick={()=>fileRef.current?.click()}>Restore a backup</button><input type="file" accept="application/json" ref={fileRef} hidden onChange={e=>{const f=e.target.files?.[0];if(f)importData(f);e.target.value='';}}/></div>
  </aside>
  {mobile&&<button className="scrim" aria-label="Close menu" onClick={()=>setMobile(false)}/>}
  <div className="workspace">

@@ -66,3 +66,13 @@ Open GS2 → International Relations (`/#gs2-ir`). The eight themes cover founda
 `data/international-relations.json` stores the course hierarchy and stable `ir-` topic IDs. `data/ir-revision.json` supplies short recall cards, and `data/ir-pyqs.json` links question demands to relevant lessons. `public/ir/` contains the original PDF and four maps. Table and diagram text remains available for highlights; saved work opens the relevant text transcript automatically. Existing history and essay anchors remain unchanged.
 
 PYQ entries are labelled paraphrases, with separate verification notes: the guide records direct reading of the 2025/2026 official scans and transcription checks for older years, with originals consulted where accessible. Topper observations refer to coaching practice copies, not UPSC-evaluated scripts. The source ledger and dated update card retain these limitations.
+
+## Install as an app (PWA)
+
+On iPhone/iPad, open the live website in Safari, choose Share → Add to Home Screen → Add (keep Open as Web App enabled when offered). On Android/desktop, choose **Install Study Garden** in the sidebar or the browser's install menu. Installation needs HTTPS or localhost.
+
+Open online once and wait for **Notes ready for offline reading**. The production service worker saves the app, all bundled notes/PYQs/essay content, and its JavaScript/CSS for offline reopening. Maps and PDFs are cached when opened online where the browser returns a full response. External links and range-only PDF downloads still need internet. Browser storage limits or eviction can remove offline files.
+
+Updates download in the background and offer **Reload to update**. Save drafts before reloading; no forced reload interrupts writing. Highlights, personal notes and answers remain in the existing IndexedDB store. Installed-app storage may differ from browser storage on some devices: export a backup in the browser and restore it in the installed app if needed. There is no automatic cross-device sync.
+
+`npm run build` creates a versioned `public/sw.js` after Next builds and includes all generated static JS/CSS/fonts. It is generated and ignored by Git. `npm run dev` does not register a worker. `npm run test:pwa` checks offline caching, updates and request exclusions.
